@@ -1,0 +1,23 @@
+'Propellant: Annulus; AP with Al'
+'Annulus'
+3                       # idim
+1600	                # height
+300			# inner radius
+
+2                       # iblend_max
+40000          	        # ntot, total number of particles
+0.92                    # binder density
+
+miller_ap200.dat        # cut name
+AP                      # cut type
+1.95                    # density
+0.5                     # weight fraction
+20.0                    # d_cutoff
+0d0                     # coating parameter; microns
+
+aerojet_al_30.dat       # cut name
+Al                      # cut type
+2.70                    # density
+0.18                    # weight fraction
+5.0                     # d_cutoff
+0d0                     # coating parameter; micron

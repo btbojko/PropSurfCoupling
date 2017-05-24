@@ -1,0 +1,24 @@
+'Propellant: Example for DTRA'
+'Cube'
+3                       # idim
+-3	                # height
+
+2                       # iblend_max
+20000          	        # ntot, total number of particles
+0.92                    # binder density
+
+singlesize		# cut name
+petn                      # cut type
+300.0       		# diameter for single size
+1.92                    # density
+0.5    		# weight fraction
+15.0     	     	# d_cutoff
+0.00			# coating parameter; microns
+
+singlesize		# cut name
+Al                      # cut type
+45.0       		# diameter for single size
+1.95                    # density
+0.1    		# weight fraction
+15.0     	     	# d_cutoff
+0.00			# coating parameter; microns

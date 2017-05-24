@@ -1,0 +1,165 @@
+!
+!     All run times are approximate, only given to
+!     give a sense for how long a particular example packs
+!
+!
+
+
+!
+!     Single cuts
+!       Run times < 1 minute; 
+!         except Single_Thiokol_200 = 14 mins
+!
+!Single_size_100
+!Single_Thiokol_20
+!Single_Thiokol_50
+!Single_Thiokol_200
+!Single_Miller_20
+!Single_Miller_50
+!Single_Miller_90
+!Single_Miller_200
+!
+!
+!     These Miller blends use the Thiokol AP cuts
+!       Run times < 3 mins
+!
+!Miller_blend_24_Thiokol
+!Miller_blend_23_Thiokol
+!Miller_blend_19_Thiokol
+!
+!
+!     The following mimic the ones reported in our Combustion
+!       Symposium (2002) paper; they are not exact since it is
+!       not known what code produced the mixes. They are
+!       reasonably close except for M21. These blends
+!       use the Miller AP cuts
+!       Run times < 1 minute; 
+!         except Miller_blend_24_Miller > 24 hrs
+!
+!Miller_blend_24_Miller
+!Miller_blend_21_Miller
+Miller_blend_17_Miller
+!Miller_blend_03_Miller
+!
+!
+!     The following are the ones I used in the JPP 
+!       agglomeration (2005) paper.
+!
+!Price_bimodal_390_196.0	! 98.5% after 25 hours
+!Price_bimodal_390_082.5
+!Price_bimodal_390_049.0
+!Price_bimodal_390_017.5	! 1 hr
+!SME_8061
+!Shuttle_01
+!SME_904118			! 7.7 hrs
+!Example_18
+!
+!
+!     Additional Miller Packs; they all use the Miller
+!       AP cuts
+!       Run times shown in secs
+!
+!Miller_blend_02	! 9
+!Miller_blend_03	! 5
+!Miller_blend_04	! 17
+!Miller_blend_05	! 138
+!Miller_blend_06	! 8
+!Miller_blend_08	! 14
+!Miller_blend_09	! 12
+!Miller_blend_10	! 19
+!Miller_blend_12	! 5
+!Miller_blend_14	! 13
+!Miller_blend_15	! 40
+!Miller_blend_16	! 2682
+!Miller_blend_17	! 1830
+!Miller_blend_18	! 355
+!Miller_blend_19	! 140
+!Miller_blend_20	! 288
+Miller_blend_21	! 804
+!Miller_blend_22	! 1285
+!Miller_blend_23	! 194
+!Miller_blend_24	! 1132
+!Miller_blend_25	! 384
+!Miller_blend_26	! 554
+!Miller_blend_27	! 130
+!Miller_blend_28	! 513
+!Miller_blend_29	! 250
+!Miller_blend_30	! 105
+!Miller_blend_31	! 89
+!Miller_blend_32	! 59
+
+!
+!     Stephen packs with nano-aluminum
+!       Run times < 1 minute
+!
+Stephens_baseline
+!Galfett1_p01a
+!Son_01
+!Son_02
+!Son_03
+!Son_04
+!Son_05
+!Son_06
+
+
+!
+!     McGeary packs with steel shot
+!       For these packs, the packing fraction is set to
+!       one; to get the maximum packing fraction run until
+!       the change in density is small, then crtl^c to
+!       stop Rocpack; record packing fraction
+!       Run times depend on when pack is stopped
+!
+!McGeary_01
+!McGeary_02
+!McGeary_03
+!McGeary_04
+
+!
+!     Odds and Ends
+!       Run times shown in secs
+!
+!Example_01		! 337
+!Example_02		! 28
+!Example_03		! 48
+!Example_04		! 48
+!Example_05		! 217
+!Example_07		! 695
+!Example_08		! 40
+!Example_10		! 201
+!Example_13		! 406
+!Example_16		! 406
+Example_16a		! 406
+!GlassBeads_01		! 1
+!Single_Franck_400	! 1
+!AtlasV
+!Eglin01		! 3
+!Eglin02		! 2
+!Sand_01
+!Cylinder_01		! 4
+!Cylinder_02		! 5
+!Cylinder_03		! 11
+!Cylinder_04		! 1; use plt1.m for comparison
+!Annulus_01		! 5
+!Annulus_02		! 40
+
+
+!
+!     Examples with crystals
+!       Currently, crystals can only be packed in cuboids
+!       Use pack instead of pack-ls
+!       Run times shown in secs
+!
+!Borne01		! 40
+!Borne02
+!Example_11		! failed?
+!Example_15		! 320
+!Example_09		! works, but slow
+!Hyunsun_01		! 200
+!PBX9501			! 400
+!SUGAR_Baer_Trott	! failed?
+!SDT_project		! 80% done at 1000 s
+!SDT_01
+!Salt_01		! 14
+!CMDB01			! 50
+!Eglin03

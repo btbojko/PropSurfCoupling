@@ -1,0 +1,16 @@
+$LD_LIBRARY_PATH
+/opt/intel/Compiler/11.1/075/lib/intel64:/opt/intel/Compiler/11.1/075/lib/intel64:/opt/ALE3D_4.16/runtime:/opt/lib:/opt/open-mpi/intel/lib
+
+$PATH
+/opt/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/dan.abeln/bin:/opt/open-mpi/intel/bin
+
+
+! Run the Makefile on local machine to ensure all files compile and link using
+proper version of OpenMPI with Intel compiler. Or set paths above on head node
+of bigjet and compile from there. Send the resulting executable
+"rocfire2d" to bigjet and temporarily set paths to the above in order to
+enable the executable to run in parallel
+
+mpirun -x PATH=$PATH -x LD_LIBRARY_PATH=$LD_LIBRARY_PATH -n 12 ./rocfire2d
+
+ 

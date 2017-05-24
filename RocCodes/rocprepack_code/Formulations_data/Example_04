@@ -1,0 +1,24 @@
+'Propellant: Example for 3D case; bimodal AP with Al'
+'Cuboid'
+3                       # idim
+1000	                # height
+
+2                       # iblend_max
+500          	        # ntot, total number of particles
+0.92                    # binder density
+
+singlesize		# cut name
+AP                      # cut type
+90.0      		# diameter for single size
+1.95                    # density
+0.65     		# weight fraction
+15.0     	     	# d_cutoff
+0d0			# coating parameter; micron
+
+singlesize		# cut name
+Al                      # cut type
+20.0      		# diameter for single size
+1.95                    # density
+0.12     		# weight fraction
+15.0     	     	# d_cutoff
+0d0			# coating parameter; micron

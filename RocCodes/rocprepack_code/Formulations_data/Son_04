@@ -1,0 +1,30 @@
+'Propellant: Steve Son 04 bimodal AP; Series B; 6% nAl case'
+'Cuboid'
+3                       # idim
+-1	                # height
+
+3                       # iblend_max
+12000          	        # ntot, total number of particles
+0.92                    # binder density
+
+atk_purdue_ap200.dat      	# cut name
+AP                      # cut type
+1.95                    # density
+0.6160   		# weight fraction
+20.0     	     	# d_cutoff
+0.0d0			# coating parameter; micron
+
+atk_purdue_ap20.dat      	# cut name
+AP                      # cut type
+1.95                    # density
+0.1540   		# weight fraction
+10.0     	     	# d_cutoff
+0.0d0			# coating parameter; micron
+
+singlesize	 	# cut name
+Al                      # cut type
+3.0			# diameter for single size
+2.70                    # density
+0.06	   		# weight fraction
+20.0     	     	# d_cutoff
+0d0			# coating parameter; micron

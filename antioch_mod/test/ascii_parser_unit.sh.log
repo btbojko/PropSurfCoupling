@@ -1,0 +1,101 @@
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding H2 informations:
+	molecular weight: 0.002016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding O2 informations:
+	molecular weight: 0.032 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species H2
+	vibrational temperature: 6331.4 K
+	degeneracy: 1
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+Adding vibrational data of species O2
+	vibrational temperature: 2239 K
+	degeneracy: 1
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 0 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 11391.6 K
+	degeneracy: 2
+Adding electronic data of species O2
+	electronic temperature: 18984.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 47559.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 49912.4 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 50922.7 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 71898.6 K
+	degeneracy: 3
+WARNING:
+Electronic levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat.
+Missing molecule(s) is(are):
+H2
+Having opened file ../test/input_files/test_parsing.ASCII

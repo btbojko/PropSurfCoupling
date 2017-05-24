@@ -1,0 +1,8 @@
+input_JPP2008_Rad_3Dpack.txt
+chem_info_JPP2005_NewKinetics.txt
+pack3d_baseline.txt
+
+
+
+Be sure to set maxsize = 7 in global_data.f90 and recompile
+before running

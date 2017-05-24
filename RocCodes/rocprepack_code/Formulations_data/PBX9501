@@ -1,0 +1,30 @@
+'Propellant: PBX 9501'
+'Cube'           	# container
+3                       # idim
+-3	                # height
+
+3                       # iblend_max
+40000          	        # ntot, total number of particles
+0.92                    # binder density
+
+thiokol_ap200.dat	# cut name
+hmx                     # cut type
+1.85                    # density
+0.2     		# weight fraction
+30.0     	     	# d_cutoff
+0.0 			# coating parameter; microns
+
+thiokol_ap20.dat	# cut name
+hmx                      # cut type
+1.85                    # density
+0.2     		# weight fraction
+20.0     	     	# d_cutoff
+0.0			# coating parameter; microns
+
+singlesize		# cut name
+hmx                      # cut type
+7.0       		# diameter for single size
+1.85                    # density
+0.3     		# weight fraction
+10.0     	     	# d_cutoff
+0.0			# coating parameter; microns

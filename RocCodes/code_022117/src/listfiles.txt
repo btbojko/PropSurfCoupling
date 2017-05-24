@@ -1,0 +1,47 @@
+mpif90 -c -O3  data_types.f90 
+mpif90 -c -O3  global_data.f90 
+mpif90 -c -O3  mpi.f90 
+mpif90 -c -O3  data_str.f90 
+mpif90 -c -O3  bc_data.f90 
+mpif90 -c -O3  statistics.f90 
+mpif90 -c -O3  viz1.f90 
+mpif90 -c -O3  mg_solver.f90 
+mpif90 -c -O3  lusolver.f90 
+mpif90 -c -O3  wgauss_relax.f90 
+mpif90 -c -O3  restart.f90 
+mpif90 -c -O3  radiation.f90 
+mpif90 -c -O3  driver.f90 
+mpif90 -c -O3  grid.f90 
+mpif90 -c -O3  ic.f90 
+mpif90 -c -O3  pressure.f90 
+mpif90 -c -O3  rate.f90 
+mpif90 -c -O3  bc.f90 
+mpif90 -c -O3  velocity.f90 
+mpif90 -c -O3  update_phi.f90 
+mpif90 -c -O3  update_psinew.f90 
+mpif90 -c -O3  pyrolysis.f90 
+mpif90 -c -O3  flux.f90 
+mpif90 -c -O3  conductivity.f90 
+mpif90 -c -O3  txy_2_1.f90 
+mpif90 -c -O3  get_proc_decomp.f90 
+mpif90 -c -O3  get_mg_decomp.f90 
+mpif90 -c -O3  quadrants.f90 
+mpif90 -c -O3  ghost.f90 
+mpif90 -c -O3  allocation.f90 
+mpif90 -c -O3  qxy_2_1.f90 
+mpif90 -c -O3  bcq.f90 
+mpif90 -c -O3  projection.f90 
+mpif90 -c -O3  solid_prop.f90 
+mpif90 -c -O3  read_pack.f90 
+mpif90 -c -O3  test.f90 
+mpif90 -c -O3  implicit_bc.f90 
+mpif90 -c -O3  explicit_residual.f90 
+explicit_residual.f90:503.17:
+
+  call CORR_FLUX(q(lf(1),lf(2),lf(3),eqn),lf,uf,dqdt(lDf(1),lDf(2),lDf(3),eqn),
+                 1
+Warning: Element of assumed-shaped or pointer array passed to array dummy argument 'fvec' at (1)
+mpif90 -c -O3  globalparameter.f90 
+mpif90 -c -O3  viz2.f90 
+mpif90 -c -O3  newroutines.f90 
+mpif90 -c -O3  read_matrix.f90 

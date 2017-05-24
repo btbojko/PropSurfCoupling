@@ -1,0 +1,38 @@
+'Propellant: Example for 3D case; bimodal AP; RDX; ADN'
+'Cuboid'
+3                       # idim
+-3	                # height
+
+4                       # iblend_max
+9000         	        # ntot, total number of particles
+0.92                    # binder density
+
+miller_ap200.dat	# cut name
+AP                      # cut type
+1.95                    # density
+0.1     		# weight fraction
+20.0     	     	# d_cutoff
+0d0			# coating parameter; microns
+
+miller_ap50.dat         # cut name
+AP                      # cut type
+1.95                    # density
+0.3	                # weight fraction
+10.0                    # d_cutoff
+0d0                     # coating parameter; micron
+
+aerojet_rdx.dat		# cut name
+hmx                     # cut type
+1.82                    # density
+0.1     		# weight fraction
+20.0     	     	# d_cutoff
+0.0			# coating parameter; microns
+
+singlesize		# cut name
+adn                     # cut type
+21.1       		# diameter for single size
+1.72                    # density
+0.1     		# weight fraction
+15.0     	     	# d_cutoff
+0.0			# coating parameter; microns
+

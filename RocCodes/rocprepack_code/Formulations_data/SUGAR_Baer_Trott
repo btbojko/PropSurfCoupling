@@ -1,0 +1,15 @@
+'Propellant: Example for Baer_Trott Sugar'
+'Cube'           	# container
+3                       # idim
+-4	                # height
+
+1                       # iblend_max
+1500          	        # ntot, total number of particles
+0.92                     # void
+
+sugar_baer.dat    	# cut name
+hmx                      # cut type
+1.5805                     # density
+0.65    		# weight fraction
+10.0     	     	# d_cutoff
+0.0			# coating parameter; microns

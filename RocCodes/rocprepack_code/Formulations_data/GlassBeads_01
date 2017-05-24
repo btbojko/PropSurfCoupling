@@ -1,0 +1,15 @@
+'Propellant: Example for 44 micron glass beads'
+'Cuboid'           	# container
+3                       # idim
+-3	                # height
+
+1                       # iblend_max
+1000          	        # ntot, total number of particles
+1.00                    # binder density
+
+glassbeads_44.dat	# cut name
+AP                      # cut type
+1.0                     # density
+0.5527    		# weight fraction
+10.0     	     	# d_cutoff
+0.0			# coating parameter; microns

@@ -1,0 +1,34 @@
+'Propellant: Steve Son 03 bimodal AP; 18% nAl case'
+'Cuboid'
+3                       # idim
+-1	                # height
+
+3                       # iblend_max
+8000          	        # ntot, total number of particles
+0.92                    # binder density
+
+thiokol_ap200.dat      	# cut name
+AP                      # cut type
+1.95                    # density
+0.23015   		# weight fraction
+10.0     	     	# d_cutoff
+0.0d0			# coating parameter; micron
+
+lognormal               # cut name
+AP                      # cut type
+1.95                    # density
+0.35515                 # weight fraction
+5.0                     # d_cutoff
+0d0                     # coating parameter; micron
+0.8                     # bcoeff
+90.0                    # diam_Peak
+60.0                    # diam_Min
+130.0                   # diam_Max
+
+singlesize	 	# cut name
+Al                      # cut type
+3.0			# diameter for single size
+2.70                    # density
+0.18	   		# weight fraction
+20.0     	     	# d_cutoff
+0d0			# coating parameter; micron

@@ -1,0 +1,16 @@
+'Propellant: Cylinder; AP with no Al'
+'Cylinder'
+3                       # idim
+-3	                # height
+
+1                       # iblend_max
+10          	        # ntot, total number of particles
+0.92                    # binder density
+
+singlesize		# cut name
+AP                      # cut type
+50.0      		# diameter for single size
+1.95                    # density
+0.5     		# weight fraction
+5.0     	     	# d_cutoff
+0d0			# coating parameter; micron

@@ -1,0 +1,15 @@
+'Single cut, Franck 400 micron AP'
+'Cuboid'
+3                       # idim
+-1	                # height
+
+1			# iblend_max
+200			# ntot, total number of particles
+0.92                    # binder density
+
+franck_ap400.dat 	# cut name
+AP			# cut type
+1.95                    # density
+0.736			# weight fraction
+5.0			# d_cutoff
+0d0			# coating parameter; micron

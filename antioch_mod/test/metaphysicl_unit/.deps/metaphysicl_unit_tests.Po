@@ -1,0 +1,7 @@
+metaphysicl_unit/metaphysicl_unit_tests.o: \
+ metaphysicl_unit/metaphysicl_unit_tests.C /usr/include/stdc-predef.h \
+ ../antioch_config.h
+
+/usr/include/stdc-predef.h:
+
+../antioch_config.h:

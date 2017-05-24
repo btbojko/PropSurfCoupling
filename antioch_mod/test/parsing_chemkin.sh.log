@@ -1,0 +1,1815 @@
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding CH3 informations:
+	molecular weight: 0.015035 kg/mol
+	formation enthalpy @0 K: 9.9559e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding CH4 informations:
+	molecular weight: 0.016043 kg/mol
+	formation enthalpy @0 K: -4.15321e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding H informations:
+	molecular weight: 0.001008 kg/mol
+	formation enthalpy @0 K: 2.1432e+08 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding H2 informations:
+	molecular weight: 0.002016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding H2O informations:
+	molecular weight: 0.018016 kg/mol
+	formation enthalpy @0 K: -1.32617e+07 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding H2O2 informations:
+	molecular weight: 0.0340148 kg/mol
+	formation enthalpy @0 K: -3.81867e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding HO2 informations:
+	molecular weight: 0.0330068 kg/mol
+	formation enthalpy @0 K: 452392 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding O informations:
+	molecular weight: 0.016 kg/mol
+	formation enthalpy @0 K: 1.542e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding O2 informations:
+	molecular weight: 0.032 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding OH informations:
+	molecular weight: 0.017008 kg/mol
+	formation enthalpy @0 K: 2.29951e+06 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species CH3
+	vibrational temperature: 4316.5 K
+	degeneracy: 1
+Adding vibrational data of species CH3
+	vibrational temperature: 873.37 K
+	degeneracy: 1
+Adding vibrational data of species CH3
+	vibrational temperature: 4549.6 K
+	degeneracy: 2
+Adding vibrational data of species CH3
+	vibrational temperature: 2011.5 K
+	degeneracy: 2
+Adding vibrational data of species CH4
+	vibrational temperature: 4196.6 K
+	degeneracy: 1
+Adding vibrational data of species CH4
+	vibrational temperature: 2206.2 K
+	degeneracy: 2
+Adding vibrational data of species CH4
+	vibrational temperature: 4344.5 K
+	degeneracy: 3
+Adding vibrational data of species CH4
+	vibrational temperature: 1886 K
+	degeneracy: 3
+Adding vibrational data of species H2
+	vibrational temperature: 6331.4 K
+	degeneracy: 1
+Adding vibrational data of species H2O
+	vibrational temperature: 5261.3 K
+	degeneracy: 1
+Adding vibrational data of species H2O
+	vibrational temperature: 2294.6 K
+	degeneracy: 1
+Adding vibrational data of species H2O
+	vibrational temperature: 5403.95 K
+	degeneracy: 1
+Adding vibrational data of species O2
+	vibrational temperature: 2239 K
+	degeneracy: 1
+Adding vibrational data of species OH
+	vibrational temperature: 5378.2 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+H2O2
+HO2
+O
+H
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species O
+	electronic temperature: 0 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 227.708 K
+	degeneracy: 3
+Adding electronic data of species O
+	electronic temperature: 326.569 K
+	degeneracy: 1
+Adding electronic data of species O
+	electronic temperature: 22830.3 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 48619.9 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 0 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 11391.6 K
+	degeneracy: 2
+Adding electronic data of species O2
+	electronic temperature: 18984.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 47559.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 49912.4 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 50922.7 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 71898.6 K
+	degeneracy: 3
+Adding electronic data of species OH
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species OH
+	electronic temperature: 47028 K
+	degeneracy: 2
+WARNING:
+Electronic levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat.
+Missing molecule(s) is(are):
+H2
+H2O
+H2O2
+HO2
+CH3
+CH4
+H
+Having opened file ../test/input_files/test_parsing.chemkin
+Reaction "H+O2=O+OH":
+ eqn: H+O2=O+OH
+ type: Elementary
+reversible: 1
+
+   reactants: H:1,1, O2:1,1, 
+    H 1
+    O2 1
+   products: O:1,1, OH:1,1, 
+    O 1
+    OH 1
+ rate: Kooij model
+   A: 3.547e+15 cm3/mol/s
+   b: -0.406
+   E: 16599 cal/mol
+
+
+Reaction "O+H2=H+OH":
+ eqn: O+H2=H+OH
+ type: Elementary
+reversible: 1
+
+   reactants: O:1,1, H2:1,1, 
+    O 1
+    H2 1
+   products: H:1,1, OH:1,1, 
+    H 1
+    OH 1
+ rate: Kooij model
+   A: 50800 cm3/mol/s
+   b: 2.67
+   E: 6290 cal/mol
+
+
+Reaction "H2+OH=H2O+H":
+ eqn: H2+OH=H2O+H
+ type: Elementary
+reversible: 1
+
+   reactants: H2:1,1, OH:1,1, 
+    H2 1
+    OH 1
+   products: H2O:1,1, H:1,1, 
+    H2O 1
+    H 1
+ rate: Kooij model
+   A: 2.16e+08 cm3/mol/s
+   b: 1.51
+   E: 3430 cal/mol
+
+
+Reaction "O+H2O=OH+OH":
+ eqn: O+H2O=OH+OH
+ type: Elementary
+reversible: 1
+
+   reactants: O:1,1, H2O:1,1, 
+    O 1
+    H2O 1
+   products: OH:1,1, OH:1,1, 
+    OH 1
+    OH 1
+ rate: Kooij model
+   A: 2.97e+06 cm3/mol/s
+   b: 2.02
+   E: 13400 cal/mol
+
+
+Reaction "H2+M=H+H+M":
+ eqn: H2+M=H+H+M
+ type: ThreeBody
+reversible: 1
+
+   reactants: H2:1,1, 
+    H2 1
+   products: H:1,1, H:1,1, 
+    H 1
+    H 1
+ rate: Kooij model
+   A: 4.577e+19 cm3/mol/s
+   b: -1.4
+   E: 104380 cal/mol
+
+H2 2.5
+H2O 12
+
+
+Reaction "O+O+M=O2+M":
+ eqn: O+O+M=O2+M
+ type: ThreeBody
+reversible: 1
+
+   reactants: O:1,1, O:1,1, 
+    O 1
+    O 1
+   products: O2:1,1, 
+    O2 1
+ rate: Kooij model
+   A: 6.165e+15 cm6/mol2/s
+   b: -0.5
+   E: 0 cal/mol
+
+H2 2.5
+H2O 12
+
+
+Reaction "O+H+M=OH+M":
+ eqn: O+H+M=OH+M
+ type: ThreeBody
+reversible: 1
+
+   reactants: O:1,1, H:1,1, 
+    O 1
+    H 1
+   products: OH:1,1, 
+    OH 1
+ rate: Kooij model
+   A: 4.714e+18 cm6/mol2/s
+   b: -1
+   E: 0 cal/mol
+
+H2 2.5
+H2O 12
+
+
+Reaction "H+OH+M=H2O+M":
+ eqn: H+OH+M=H2O+M
+ type: ThreeBody
+reversible: 1
+
+   reactants: H:1,1, OH:1,1, 
+    H 1
+    OH 1
+   products: H2O:1,1, 
+    H2O 1
+ rate: Kooij model
+   A: 3.8e+22 cm6/mol2/s
+   b: -2
+   E: 0 cal/mol
+
+H2 2.5
+H2O 12
+
+
+Reaction "H+O2(+M)=HO2(+M)":
+ eqn: H+O2(+M)=HO2(+M)
+ type: TroeFalloffThreeBody
+reversible: 1
+
+   reactants: H:1,1, O2:1,1, 
+    H 1
+    O2 1
+   products: HO2:1,1, 
+    HO2 1
+ rate: Kooij model
+  Low pressure limit rate constant
+   A: 6.366e+20 cm6/mol2/s
+   b: -1.72
+   E: 524.8 cal/mol
+ rate: Kooij model
+  High pressure limit rate constant
+   A: 1.475e+12 cm3/mol/s
+   b: 0.6
+   E: 0 cal/mol
+
+H2 2
+H2O 11
+O2 0.78
+   alpha: 0.8 
+   T***:  1e-30 K
+   T*:    1e+30 K
+
+
+Reaction "HO2+H=H2+O2":
+ eqn: HO2+H=H2+O2
+ type: Elementary
+reversible: 1
+
+   reactants: HO2:1,1, H:1,1, 
+    HO2 1
+    H 1
+   products: H2:1,1, O2:1,1, 
+    H2 1
+    O2 1
+ rate: Kooij model
+   A: 1.66e+13 cm3/mol/s
+In reaction HO2+H=H2+O2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 823 cal/mol
+
+
+Reaction "HO2+H=OH+OH":
+ eqn: HO2+H=OH+OH
+ type: Elementary
+reversible: 1
+
+   reactants: HO2:1,1, H:1,1, 
+    HO2 1
+    H 1
+   products: OH:1,1, OH:1,1, 
+    OH 1
+    OH 1
+ rate: Kooij model
+   A: 7.079e+13 cm3/mol/s
+In reaction HO2+H=OH+OH
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 295 cal/mol
+
+
+Reaction "HO2+O=O2+OH":
+ eqn: HO2+O=O2+OH
+ type: Elementary
+reversible: 1
+
+   reactants: HO2:1,1, O:1,1, 
+    HO2 1
+    O 1
+   products: O2:1,1, OH:1,1, 
+    O2 1
+    OH 1
+ rate: Kooij model
+   A: 3.25e+13 cm3/mol/s
+In reaction HO2+O=O2+OH
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 0 cal/mol
+
+
+Reaction "HO2+OH=H2O+O2":
+ eqn: HO2+OH=H2O+O2
+ type: Elementary
+reversible: 1
+
+   reactants: HO2:1,1, OH:1,1, 
+    HO2 1
+    OH 1
+   products: H2O:1,1, O2:1,1, 
+    H2O 1
+    O2 1
+ rate: Kooij model
+   A: 2.89e+13 cm3/mol/s
+In reaction HO2+OH=H2O+O2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: -497 cal/mol
+
+
+Reaction "HO2+HO2=H2O2+O2":
+ eqn: HO2+HO2=H2O2+O2
+ type: Duplicate
+reversible: 1
+
+   reactants: HO2:1,1, HO2:1,1, 
+    HO2 1
+    HO2 1
+   products: H2O2:1,1, O2:1,1, 
+    H2O2 1
+    O2 1
+ rate: Kooij model
+   A: 4.2e+14 cm3/mol/s
+In reaction HO2+HO2=H2O2+O2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 11982 cal/mol
+ rate: Arrhenius model
+   A: 1.3e+11 cm3/mol/s
+In reaction HO2+HO2=H2O2+O2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: -1629.3 cal/mol
+
+
+Reaction "H2O2(+M)=OH+OH(+M)":
+ eqn: H2O2(+M)=OH+OH(+M)
+ type: TroeFalloffThreeBody
+reversible: 1
+
+   reactants: H2O2:1,1, 
+    H2O2 1
+   products: OH:1,1, OH:1,1, 
+    OH 1
+    OH 1
+ rate: Kooij model
+  Low pressure limit rate constant
+   A: 1.202e+17 cm3/mol/s
+   b: 0
+   E: 45500 cal/mol
+ rate: Kooij model
+  High pressure limit rate constant
+   A: 2.951e+14 s-1
+   b: 0
+   E: 48430 cal/mol
+
+H2 2.5
+H2O 12
+   alpha: 0.5 
+   T***:  1e-30 K
+   T*:    1e+30 K
+
+
+Reaction "H2O2+H=H2O+OH":
+ eqn: H2O2+H=H2O+OH
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1, H:1,1, 
+    H2O2 1
+    H 1
+   products: H2O:1,1, OH:1,1, 
+    H2O 1
+    OH 1
+ rate: Kooij model
+   A: 2.41e+13 cm3/mol/s
+In reaction H2O2+H=H2O+OH
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 3970 cal/mol
+
+
+Reaction "H2O2+H=HO2+H2":
+ eqn: H2O2+H=HO2+H2
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1, H:1,1, 
+    H2O2 1
+    H 1
+   products: HO2:1,1, H2:1,1, 
+    HO2 1
+    H2 1
+ rate: Kooij model
+   A: 4.82e+13 cm3/mol/s
+In reaction H2O2+H=HO2+H2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 7950 cal/mol
+
+
+Reaction "H2O2+O=OH+HO2":
+ eqn: H2O2+O=OH+HO2
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1, O:1,1, 
+    H2O2 1
+    O 1
+   products: OH:1,1, HO2:1,1, 
+    OH 1
+    HO2 1
+ rate: Kooij model
+   A: 9.55e+06 cm3/mol/s
+   b: 2
+   E: 3970 cal/mol
+
+
+Reaction "H2O2+OH=HO2+H2O":
+ eqn: H2O2+OH=HO2+H2O
+ type: Duplicate
+reversible: 1
+
+   reactants: H2O2:1,1, OH:1,1, 
+    H2O2 1
+    OH 1
+   products: HO2:1,1, H2O:1,1, 
+    HO2 1
+    H2O 1
+ rate: Kooij model
+   A: 1e+12 cm3/mol/s
+In reaction H2O2+OH=HO2+H2O
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 0 cal/mol
+ rate: Arrhenius model
+   A: 5.8e+14 cm3/mol/s
+In reaction H2O2+OH=HO2+H2O
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 9557 cal/mol
+
+
+Reaction "CH3+H<=>CH4":
+ eqn: CH3+H<=>CH4
+ type: Elementary
+reversible: 0
+
+   reactants: CH3:1,1, H:1,1, 
+    CH3 1
+    H 1
+   products: CH4:1,1, 
+    CH4 1
+ rate: Kooij model
+   A: 1e+12 cm3/mol/s
+   b: 1.2
+   E: 31250 cal/mol
+
+
+Reaction "CH4<=>CH3+H":
+ eqn: CH4<=>CH3+H
+ type: Elementary
+reversible: 0
+
+   reactants: CH4:1,1, 
+    CH4 1
+   products: CH3:1,1, H:1,1, 
+    CH3 1
+    H 1
+ rate: Kooij model
+   A: 1e+08 s-1
+   b: 0.8
+   E: 3500 cal/mol
+
+
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions!
+../src/kinetics/include/antioch/reaction.h, line 947, compiled Apr  4 2017 at 16:12:57 ***
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding CH3 informations:
+	molecular weight: 0.015035 kg/mol
+	formation enthalpy @0 K: 9.9559e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding CH4 informations:
+	molecular weight: 0.016043 kg/mol
+	formation enthalpy @0 K: -4.15321e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding H informations:
+	molecular weight: 0.001008 kg/mol
+	formation enthalpy @0 K: 2.1432e+08 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding H2 informations:
+	molecular weight: 0.002016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding H2O informations:
+	molecular weight: 0.018016 kg/mol
+	formation enthalpy @0 K: -1.32617e+07 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding H2O2 informations:
+	molecular weight: 0.0340148 kg/mol
+	formation enthalpy @0 K: -3.81867e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding HO2 informations:
+	molecular weight: 0.0330068 kg/mol
+	formation enthalpy @0 K: 452391 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding O informations:
+	molecular weight: 0.016 kg/mol
+	formation enthalpy @0 K: 1.542e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding O2 informations:
+	molecular weight: 0.032 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding OH informations:
+	molecular weight: 0.017008 kg/mol
+	formation enthalpy @0 K: 2.29951e+06 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species CH3
+	vibrational temperature: 4316.5 K
+	degeneracy: 1
+Adding vibrational data of species CH3
+	vibrational temperature: 873.37 K
+	degeneracy: 1
+Adding vibrational data of species CH3
+	vibrational temperature: 4549.6 K
+	degeneracy: 2
+Adding vibrational data of species CH3
+	vibrational temperature: 2011.5 K
+	degeneracy: 2
+Adding vibrational data of species CH4
+	vibrational temperature: 4196.6 K
+	degeneracy: 1
+Adding vibrational data of species CH4
+	vibrational temperature: 2206.2 K
+	degeneracy: 2
+Adding vibrational data of species CH4
+	vibrational temperature: 4344.5 K
+	degeneracy: 3
+Adding vibrational data of species CH4
+	vibrational temperature: 1886 K
+	degeneracy: 3
+Adding vibrational data of species H2
+	vibrational temperature: 6331.4 K
+	degeneracy: 1
+Adding vibrational data of species H2O
+	vibrational temperature: 5261.3 K
+	degeneracy: 1
+Adding vibrational data of species H2O
+	vibrational temperature: 2294.6 K
+	degeneracy: 1
+Adding vibrational data of species H2O
+	vibrational temperature: 5403.95 K
+	degeneracy: 1
+Adding vibrational data of species O2
+	vibrational temperature: 2239 K
+	degeneracy: 1
+Adding vibrational data of species OH
+	vibrational temperature: 5378.2 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+H2O2
+HO2
+O
+H
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species O
+	electronic temperature: 0 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 227.708 K
+	degeneracy: 3
+Adding electronic data of species O
+	electronic temperature: 326.569 K
+	degeneracy: 1
+Adding electronic data of species O
+	electronic temperature: 22830.3 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 48619.9 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 0 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 11391.6 K
+	degeneracy: 2
+Adding electronic data of species O2
+	electronic temperature: 18984.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 47559.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 49912.4 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 50922.7 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 71898.6 K
+	degeneracy: 3
+Adding electronic data of species OH
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species OH
+	electronic temperature: 47028 K
+	degeneracy: 2
+WARNING:
+Electronic levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat.
+Missing molecule(s) is(are):
+H2
+H2O
+H2O2
+HO2
+CH3
+CH4
+H
+Having opened file ../test/input_files/test_parsing.chemkin
+Reaction "H+O2=O+OH":
+ eqn: H+O2=O+OH
+ type: Elementary
+reversible: 1
+
+   reactants: H:1,1, O2:1,1, 
+    H 1
+    O2 1
+   products: O:1,1, OH:1,1, 
+    O 1
+    OH 1
+ rate: Kooij model
+   A: 3.547e+15 cm3/mol/s
+   b: -0.406
+   E: 16599 cal/mol
+
+
+Reaction "O+H2=H+OH":
+ eqn: O+H2=H+OH
+ type: Elementary
+reversible: 1
+
+   reactants: O:1,1, H2:1,1, 
+    O 1
+    H2 1
+   products: H:1,1, OH:1,1, 
+    H 1
+    OH 1
+ rate: Kooij model
+   A: 50800 cm3/mol/s
+   b: 2.67
+   E: 6290 cal/mol
+
+
+Reaction "H2+OH=H2O+H":
+ eqn: H2+OH=H2O+H
+ type: Elementary
+reversible: 1
+
+   reactants: H2:1,1, OH:1,1, 
+    H2 1
+    OH 1
+   products: H2O:1,1, H:1,1, 
+    H2O 1
+    H 1
+ rate: Kooij model
+   A: 2.16e+08 cm3/mol/s
+   b: 1.51
+   E: 3430 cal/mol
+
+
+Reaction "O+H2O=OH+OH":
+ eqn: O+H2O=OH+OH
+ type: Elementary
+reversible: 1
+
+   reactants: O:1,1, H2O:1,1, 
+    O 1
+    H2O 1
+   products: OH:1,1, OH:1,1, 
+    OH 1
+    OH 1
+ rate: Kooij model
+   A: 2.97e+06 cm3/mol/s
+   b: 2.02
+   E: 13400 cal/mol
+
+
+Reaction "H2+M=H+H+M":
+ eqn: H2+M=H+H+M
+ type: ThreeBody
+reversible: 1
+
+   reactants: H2:1,1, 
+    H2 1
+   products: H:1,1, H:1,1, 
+    H 1
+    H 1
+ rate: Kooij model
+   A: 4.577e+19 cm3/mol/s
+   b: -1.4
+   E: 104380 cal/mol
+
+H2 2.5
+H2O 12
+
+
+Reaction "O+O+M=O2+M":
+ eqn: O+O+M=O2+M
+ type: ThreeBody
+reversible: 1
+
+   reactants: O:1,1, O:1,1, 
+    O 1
+    O 1
+   products: O2:1,1, 
+    O2 1
+ rate: Kooij model
+   A: 6.165e+15 cm6/mol2/s
+   b: -0.5
+   E: 0 cal/mol
+
+H2 2.5
+H2O 12
+
+
+Reaction "O+H+M=OH+M":
+ eqn: O+H+M=OH+M
+ type: ThreeBody
+reversible: 1
+
+   reactants: O:1,1, H:1,1, 
+    O 1
+    H 1
+   products: OH:1,1, 
+    OH 1
+ rate: Kooij model
+   A: 4.714e+18 cm6/mol2/s
+   b: -1
+   E: 0 cal/mol
+
+H2 2.5
+H2O 12
+
+
+Reaction "H+OH+M=H2O+M":
+ eqn: H+OH+M=H2O+M
+ type: ThreeBody
+reversible: 1
+
+   reactants: H:1,1, OH:1,1, 
+    H 1
+    OH 1
+   products: H2O:1,1, 
+    H2O 1
+ rate: Kooij model
+   A: 3.8e+22 cm6/mol2/s
+   b: -2
+   E: 0 cal/mol
+
+H2 2.5
+H2O 12
+
+
+Reaction "H+O2(+M)=HO2(+M)":
+ eqn: H+O2(+M)=HO2(+M)
+ type: TroeFalloffThreeBody
+reversible: 1
+
+   reactants: H:1,1, O2:1,1, 
+    H 1
+    O2 1
+   products: HO2:1,1, 
+    HO2 1
+ rate: Kooij model
+  Low pressure limit rate constant
+   A: 6.366e+20 cm6/mol2/s
+   b: -1.72
+   E: 524.8 cal/mol
+ rate: Kooij model
+  High pressure limit rate constant
+   A: 1.475e+12 cm3/mol/s
+   b: 0.6
+   E: 0 cal/mol
+
+H2 2
+H2O 11
+O2 0.78
+   alpha: 0.8 
+   T***:  1e-30 K
+   T*:    1e+30 K
+
+
+Reaction "HO2+H=H2+O2":
+ eqn: HO2+H=H2+O2
+ type: Elementary
+reversible: 1
+
+   reactants: HO2:1,1, H:1,1, 
+    HO2 1
+    H 1
+   products: H2:1,1, O2:1,1, 
+    H2 1
+    O2 1
+ rate: Kooij model
+   A: 1.66e+13 cm3/mol/s
+In reaction HO2+H=H2+O2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 823 cal/mol
+
+
+Reaction "HO2+H=OH+OH":
+ eqn: HO2+H=OH+OH
+ type: Elementary
+reversible: 1
+
+   reactants: HO2:1,1, H:1,1, 
+    HO2 1
+    H 1
+   products: OH:1,1, OH:1,1, 
+    OH 1
+    OH 1
+ rate: Kooij model
+   A: 7.079e+13 cm3/mol/s
+In reaction HO2+H=OH+OH
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 295 cal/mol
+
+
+Reaction "HO2+O=O2+OH":
+ eqn: HO2+O=O2+OH
+ type: Elementary
+reversible: 1
+
+   reactants: HO2:1,1, O:1,1, 
+    HO2 1
+    O 1
+   products: O2:1,1, OH:1,1, 
+    O2 1
+    OH 1
+ rate: Kooij model
+   A: 3.25e+13 cm3/mol/s
+In reaction HO2+O=O2+OH
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 0 cal/mol
+
+
+Reaction "HO2+OH=H2O+O2":
+ eqn: HO2+OH=H2O+O2
+ type: Elementary
+reversible: 1
+
+   reactants: HO2:1,1, OH:1,1, 
+    HO2 1
+    OH 1
+   products: H2O:1,1, O2:1,1, 
+    H2O 1
+    O2 1
+ rate: Kooij model
+   A: 2.89e+13 cm3/mol/s
+In reaction HO2+OH=H2O+O2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: -497 cal/mol
+
+
+Reaction "HO2+HO2=H2O2+O2":
+ eqn: HO2+HO2=H2O2+O2
+ type: Duplicate
+reversible: 1
+
+   reactants: HO2:1,1, HO2:1,1, 
+    HO2 1
+    HO2 1
+   products: H2O2:1,1, O2:1,1, 
+    H2O2 1
+    O2 1
+ rate: Kooij model
+   A: 4.2e+14 cm3/mol/s
+In reaction HO2+HO2=H2O2+O2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 11982 cal/mol
+ rate: Arrhenius model
+   A: 1.3e+11 cm3/mol/s
+In reaction HO2+HO2=H2O2+O2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: -1629.3 cal/mol
+
+
+Reaction "H2O2(+M)=OH+OH(+M)":
+ eqn: H2O2(+M)=OH+OH(+M)
+ type: TroeFalloffThreeBody
+reversible: 1
+
+   reactants: H2O2:1,1, 
+    H2O2 1
+   products: OH:1,1, OH:1,1, 
+    OH 1
+    OH 1
+ rate: Kooij model
+  Low pressure limit rate constant
+   A: 1.202e+17 cm3/mol/s
+   b: 0
+   E: 45500 cal/mol
+ rate: Kooij model
+  High pressure limit rate constant
+   A: 2.951e+14 s-1
+   b: 0
+   E: 48430 cal/mol
+
+H2 2.5
+H2O 12
+   alpha: 0.5 
+   T***:  1e-30 K
+   T*:    1e+30 K
+
+
+Reaction "H2O2+H=H2O+OH":
+ eqn: H2O2+H=H2O+OH
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1, H:1,1, 
+    H2O2 1
+    H 1
+   products: H2O:1,1, OH:1,1, 
+    H2O 1
+    OH 1
+ rate: Kooij model
+   A: 2.41e+13 cm3/mol/s
+In reaction H2O2+H=H2O+OH
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 3970 cal/mol
+
+
+Reaction "H2O2+H=HO2+H2":
+ eqn: H2O2+H=HO2+H2
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1, H:1,1, 
+    H2O2 1
+    H 1
+   products: HO2:1,1, H2:1,1, 
+    HO2 1
+    H2 1
+ rate: Kooij model
+   A: 4.82e+13 cm3/mol/s
+In reaction H2O2+H=HO2+H2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 7950 cal/mol
+
+
+Reaction "H2O2+O=OH+HO2":
+ eqn: H2O2+O=OH+HO2
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1, O:1,1, 
+    H2O2 1
+    O 1
+   products: OH:1,1, HO2:1,1, 
+    OH 1
+    HO2 1
+ rate: Kooij model
+   A: 9.55e+06 cm3/mol/s
+   b: 2
+   E: 3970 cal/mol
+
+
+Reaction "H2O2+OH=HO2+H2O":
+ eqn: H2O2+OH=HO2+H2O
+ type: Duplicate
+reversible: 1
+
+   reactants: H2O2:1,1, OH:1,1, 
+    H2O2 1
+    OH 1
+   products: HO2:1,1, H2O:1,1, 
+    HO2 1
+    H2O 1
+ rate: Kooij model
+   A: 1e+12 cm3/mol/s
+In reaction H2O2+OH=HO2+H2O
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 0 cal/mol
+ rate: Arrhenius model
+   A: 5.8e+14 cm3/mol/s
+In reaction H2O2+OH=HO2+H2O
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 9557 cal/mol
+
+
+Reaction "CH3+H<=>CH4":
+ eqn: CH3+H<=>CH4
+ type: Elementary
+reversible: 0
+
+   reactants: CH3:1,1, H:1,1, 
+    CH3 1
+    H 1
+   products: CH4:1,1, 
+    CH4 1
+ rate: Kooij model
+   A: 1e+12 cm3/mol/s
+   b: 1.2
+   E: 31250 cal/mol
+
+
+Reaction "CH4<=>CH3+H":
+ eqn: CH4<=>CH3+H
+ type: Elementary
+reversible: 0
+
+   reactants: CH4:1,1, 
+    CH4 1
+   products: CH3:1,1, H:1,1, 
+    CH3 1
+    H 1
+ rate: Kooij model
+   A: 1e+08 s-1
+   b: 0.8
+   E: 3500 cal/mol
+
+
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions!
+../src/kinetics/include/antioch/reaction.h, line 947, compiled Apr  4 2017 at 16:12:57 ***
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding CH3 informations:
+	molecular weight: 0.015035 kg/mol
+	formation enthalpy @0 K: 9.9559e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding CH4 informations:
+	molecular weight: 0.016043 kg/mol
+	formation enthalpy @0 K: -4.15321e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding H informations:
+	molecular weight: 0.001008 kg/mol
+	formation enthalpy @0 K: 2.1432e+08 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding H2 informations:
+	molecular weight: 0.002016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding H2O informations:
+	molecular weight: 0.018016 kg/mol
+	formation enthalpy @0 K: -1.32617e+07 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding H2O2 informations:
+	molecular weight: 0.0340147 kg/mol
+	formation enthalpy @0 K: -3.81867e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding HO2 informations:
+	molecular weight: 0.0330068 kg/mol
+	formation enthalpy @0 K: 452391 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding O informations:
+	molecular weight: 0.016 kg/mol
+	formation enthalpy @0 K: 1.542e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding O2 informations:
+	molecular weight: 0.032 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding OH informations:
+	molecular weight: 0.017008 kg/mol
+	formation enthalpy @0 K: 2.29951e+06 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species CH3
+	vibrational temperature: 4316.5 K
+	degeneracy: 1
+Adding vibrational data of species CH3
+	vibrational temperature: 873.37 K
+	degeneracy: 1
+Adding vibrational data of species CH3
+	vibrational temperature: 4549.6 K
+	degeneracy: 2
+Adding vibrational data of species CH3
+	vibrational temperature: 2011.5 K
+	degeneracy: 2
+Adding vibrational data of species CH4
+	vibrational temperature: 4196.6 K
+	degeneracy: 1
+Adding vibrational data of species CH4
+	vibrational temperature: 2206.2 K
+	degeneracy: 2
+Adding vibrational data of species CH4
+	vibrational temperature: 4344.5 K
+	degeneracy: 3
+Adding vibrational data of species CH4
+	vibrational temperature: 1886 K
+	degeneracy: 3
+Adding vibrational data of species H2
+	vibrational temperature: 6331.4 K
+	degeneracy: 1
+Adding vibrational data of species H2O
+	vibrational temperature: 5261.3 K
+	degeneracy: 1
+Adding vibrational data of species H2O
+	vibrational temperature: 2294.6 K
+	degeneracy: 1
+Adding vibrational data of species H2O
+	vibrational temperature: 5403.95 K
+	degeneracy: 1
+Adding vibrational data of species O2
+	vibrational temperature: 2239 K
+	degeneracy: 1
+Adding vibrational data of species OH
+	vibrational temperature: 5378.2 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+H2O2
+HO2
+O
+H
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species O
+	electronic temperature: 0 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 227.708 K
+	degeneracy: 3
+Adding electronic data of species O
+	electronic temperature: 326.569 K
+	degeneracy: 1
+Adding electronic data of species O
+	electronic temperature: 22830.3 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 48619.9 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 0 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 11391.6 K
+	degeneracy: 2
+Adding electronic data of species O2
+	electronic temperature: 18984.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 47559.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 49912.4 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 50922.7 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 71898.6 K
+	degeneracy: 3
+Adding electronic data of species OH
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species OH
+	electronic temperature: 47028 K
+	degeneracy: 2
+WARNING:
+Electronic levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat.
+Missing molecule(s) is(are):
+H2
+H2O
+H2O2
+HO2
+CH3
+CH4
+H
+Having opened file ../test/input_files/test_parsing.chemkin
+Reaction "H+O2=O+OH":
+ eqn: H+O2=O+OH
+ type: Elementary
+reversible: 1
+
+   reactants: H:1,1, O2:1,1, 
+    H 1
+    O2 1
+   products: O:1,1, OH:1,1, 
+    O 1
+    OH 1
+ rate: Kooij model
+   A: 3.547e+15 cm3/mol/s
+   b: -0.406
+   E: 16599 cal/mol
+
+
+Reaction "O+H2=H+OH":
+ eqn: O+H2=H+OH
+ type: Elementary
+reversible: 1
+
+   reactants: O:1,1, H2:1,1, 
+    O 1
+    H2 1
+   products: H:1,1, OH:1,1, 
+    H 1
+    OH 1
+ rate: Kooij model
+   A: 50800 cm3/mol/s
+   b: 2.67
+   E: 6290 cal/mol
+
+
+Reaction "H2+OH=H2O+H":
+ eqn: H2+OH=H2O+H
+ type: Elementary
+reversible: 1
+
+   reactants: H2:1,1, OH:1,1, 
+    H2 1
+    OH 1
+   products: H2O:1,1, H:1,1, 
+    H2O 1
+    H 1
+ rate: Kooij model
+   A: 2.16e+08 cm3/mol/s
+   b: 1.51
+   E: 3430 cal/mol
+
+
+Reaction "O+H2O=OH+OH":
+ eqn: O+H2O=OH+OH
+ type: Elementary
+reversible: 1
+
+   reactants: O:1,1, H2O:1,1, 
+    O 1
+    H2O 1
+   products: OH:1,1, OH:1,1, 
+    OH 1
+    OH 1
+ rate: Kooij model
+   A: 2.97e+06 cm3/mol/s
+   b: 2.02
+   E: 13400 cal/mol
+
+
+Reaction "H2+M=H+H+M":
+ eqn: H2+M=H+H+M
+ type: ThreeBody
+reversible: 1
+
+   reactants: H2:1,1, 
+    H2 1
+   products: H:1,1, H:1,1, 
+    H 1
+    H 1
+ rate: Kooij model
+   A: 4.577e+19 cm3/mol/s
+   b: -1.4
+   E: 104380 cal/mol
+
+H2 2.5
+H2O 12
+
+
+Reaction "O+O+M=O2+M":
+ eqn: O+O+M=O2+M
+ type: ThreeBody
+reversible: 1
+
+   reactants: O:1,1, O:1,1, 
+    O 1
+    O 1
+   products: O2:1,1, 
+    O2 1
+ rate: Kooij model
+   A: 6.165e+15 cm6/mol2/s
+   b: -0.5
+   E: 0 cal/mol
+
+H2 2.5
+H2O 12
+
+
+Reaction "O+H+M=OH+M":
+ eqn: O+H+M=OH+M
+ type: ThreeBody
+reversible: 1
+
+   reactants: O:1,1, H:1,1, 
+    O 1
+    H 1
+   products: OH:1,1, 
+    OH 1
+ rate: Kooij model
+   A: 4.714e+18 cm6/mol2/s
+   b: -1
+   E: 0 cal/mol
+
+H2 2.5
+H2O 12
+
+
+Reaction "H+OH+M=H2O+M":
+ eqn: H+OH+M=H2O+M
+ type: ThreeBody
+reversible: 1
+
+   reactants: H:1,1, OH:1,1, 
+    H 1
+    OH 1
+   products: H2O:1,1, 
+    H2O 1
+ rate: Kooij model
+   A: 3.8e+22 cm6/mol2/s
+   b: -2
+   E: 0 cal/mol
+
+H2 2.5
+H2O 12
+
+
+Reaction "H+O2(+M)=HO2(+M)":
+ eqn: H+O2(+M)=HO2(+M)
+ type: TroeFalloffThreeBody
+reversible: 1
+
+   reactants: H:1,1, O2:1,1, 
+    H 1
+    O2 1
+   products: HO2:1,1, 
+    HO2 1
+ rate: Kooij model
+  Low pressure limit rate constant
+   A: 6.366e+20 cm6/mol2/s
+   b: -1.72
+   E: 524.8 cal/mol
+ rate: Kooij model
+  High pressure limit rate constant
+   A: 1.475e+12 cm3/mol/s
+   b: 0.6
+   E: 0 cal/mol
+
+H2 2
+H2O 11
+O2 0.78
+   alpha: 0.8 
+   T***:  1e-30 K
+   T*:    1e+30 K
+
+
+Reaction "HO2+H=H2+O2":
+ eqn: HO2+H=H2+O2
+ type: Elementary
+reversible: 1
+
+   reactants: HO2:1,1, H:1,1, 
+    HO2 1
+    H 1
+   products: H2:1,1, O2:1,1, 
+    H2 1
+    O2 1
+ rate: Kooij model
+   A: 1.66e+13 cm3/mol/s
+In reaction HO2+H=H2+O2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 823 cal/mol
+
+
+Reaction "HO2+H=OH+OH":
+ eqn: HO2+H=OH+OH
+ type: Elementary
+reversible: 1
+
+   reactants: HO2:1,1, H:1,1, 
+    HO2 1
+    H 1
+   products: OH:1,1, OH:1,1, 
+    OH 1
+    OH 1
+ rate: Kooij model
+   A: 7.079e+13 cm3/mol/s
+In reaction HO2+H=OH+OH
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 295 cal/mol
+
+
+Reaction "HO2+O=O2+OH":
+ eqn: HO2+O=O2+OH
+ type: Elementary
+reversible: 1
+
+   reactants: HO2:1,1, O:1,1, 
+    HO2 1
+    O 1
+   products: O2:1,1, OH:1,1, 
+    O2 1
+    OH 1
+ rate: Kooij model
+   A: 3.25e+13 cm3/mol/s
+In reaction HO2+O=O2+OH
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 0 cal/mol
+
+
+Reaction "HO2+OH=H2O+O2":
+ eqn: HO2+OH=H2O+O2
+ type: Elementary
+reversible: 1
+
+   reactants: HO2:1,1, OH:1,1, 
+    HO2 1
+    OH 1
+   products: H2O:1,1, O2:1,1, 
+    H2O 1
+    O2 1
+ rate: Kooij model
+   A: 2.89e+13 cm3/mol/s
+In reaction HO2+OH=H2O+O2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: -497 cal/mol
+
+
+Reaction "HO2+HO2=H2O2+O2":
+ eqn: HO2+HO2=H2O2+O2
+ type: Duplicate
+reversible: 1
+
+   reactants: HO2:1,1, HO2:1,1, 
+    HO2 1
+    HO2 1
+   products: H2O2:1,1, O2:1,1, 
+    H2O2 1
+    O2 1
+ rate: Kooij model
+   A: 4.2e+14 cm3/mol/s
+In reaction HO2+HO2=H2O2+O2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 11982 cal/mol
+ rate: Arrhenius model
+   A: 1.3e+11 cm3/mol/s
+In reaction HO2+HO2=H2O2+O2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: -1629.3 cal/mol
+
+
+Reaction "H2O2(+M)=OH+OH(+M)":
+ eqn: H2O2(+M)=OH+OH(+M)
+ type: TroeFalloffThreeBody
+reversible: 1
+
+   reactants: H2O2:1,1, 
+    H2O2 1
+   products: OH:1,1, OH:1,1, 
+    OH 1
+    OH 1
+ rate: Kooij model
+  Low pressure limit rate constant
+   A: 1.202e+17 cm3/mol/s
+   b: 0
+   E: 45500 cal/mol
+ rate: Kooij model
+  High pressure limit rate constant
+   A: 2.951e+14 s-1
+   b: 0
+   E: 48430 cal/mol
+
+H2 2.5
+H2O 12
+   alpha: 0.5 
+   T***:  1e-30 K
+   T*:    1e+30 K
+
+
+Reaction "H2O2+H=H2O+OH":
+ eqn: H2O2+H=H2O+OH
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1, H:1,1, 
+    H2O2 1
+    H 1
+   products: H2O:1,1, OH:1,1, 
+    H2O 1
+    OH 1
+ rate: Kooij model
+   A: 2.41e+13 cm3/mol/s
+In reaction H2O2+H=H2O+OH
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 3970 cal/mol
+
+
+Reaction "H2O2+H=HO2+H2":
+ eqn: H2O2+H=HO2+H2
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1, H:1,1, 
+    H2O2 1
+    H 1
+   products: HO2:1,1, H2:1,1, 
+    HO2 1
+    H2 1
+ rate: Kooij model
+   A: 4.82e+13 cm3/mol/s
+In reaction H2O2+H=HO2+H2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 7950 cal/mol
+
+
+Reaction "H2O2+O=OH+HO2":
+ eqn: H2O2+O=OH+HO2
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1, O:1,1, 
+    H2O2 1
+    O 1
+   products: OH:1,1, HO2:1,1, 
+    OH 1
+    HO2 1
+ rate: Kooij model
+   A: 9.55e+06 cm3/mol/s
+   b: 2
+   E: 3970 cal/mol
+
+
+Reaction "H2O2+OH=HO2+H2O":
+ eqn: H2O2+OH=HO2+H2O
+ type: Duplicate
+reversible: 1
+
+   reactants: H2O2:1,1, OH:1,1, 
+    H2O2 1
+    OH 1
+   products: HO2:1,1, H2O:1,1, 
+    HO2 1
+    H2O 1
+ rate: Kooij model
+   A: 1e+12 cm3/mol/s
+In reaction H2O2+OH=HO2+H2O
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 0 cal/mol
+ rate: Arrhenius model
+   A: 5.8e+14 cm3/mol/s
+In reaction H2O2+OH=HO2+H2O
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 9557 cal/mol
+
+
+Reaction "CH3+H<=>CH4":
+ eqn: CH3+H<=>CH4
+ type: Elementary
+reversible: 0
+
+   reactants: CH3:1,1, H:1,1, 
+    CH3 1
+    H 1
+   products: CH4:1,1, 
+    CH4 1
+ rate: Kooij model
+   A: 1e+12 cm3/mol/s
+   b: 1.2
+   E: 31250 cal/mol
+
+
+Reaction "CH4<=>CH3+H":
+ eqn: CH4<=>CH3+H
+ type: Elementary
+reversible: 0
+
+   reactants: CH4:1,1, 
+    CH4 1
+   products: CH3:1,1, H:1,1, 
+    CH3 1
+    H 1
+ rate: Kooij model
+   A: 1e+08 s-1
+   b: 0.8
+   E: 3500 cal/mol
+
+
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions!
+../src/kinetics/include/antioch/reaction.h, line 947, compiled Apr  4 2017 at 16:12:57 ***

@@ -1,0 +1,42 @@
+NEWS
+====
+
+2016-02-10 version 0.1.2
+
+* Rewrite autotools build system
+
+The build system was completely rewritten, and dependencies are not strictly
+necessary anymore. The code can now be compiled with or without support for
+OpenGL, PNG, and TIFF.
+
+2015-09-06 version 0.1.1
+
+* Add multi-page TIFF and new text output formats to pack2mesh
+* Fix histogram initialization bug in rdf program
+
+2015-01-19 version 0.1.0
+
+* Build system moved to autotools
+
+The build system has been moved to autotools to make compilation easier in
+different systems. Compatibility with OS X has been lost due to development
+that happened when I had no access to my Mac, but will be restored in the
+future. The new build system will make porting to Windows easier too, if there
+is a demand for it.
+
+* Rocpack now reads some configuration files and imports shapes automatically
+
+Rocpack now reads the user configuration file $HOME/.rocpack/config. This file
+can only contain settings like set var = value; and shape definitions.
+
+Rocpack now scans default directories and automatically imports shape files
+in those directories. Currently, these directories are hard-coded in the code
+to /usr/share/rocpack/shapes/ and $HOME/.rocpack/shapes/. Any shape files
+placed in these directories will be automatically imported.
+
+* Code clean ups
+
+Some code clean ups were performed to prepare the code for builing with
+autotools. If you notice that anything became broken due to the recent
+updates, please report the bug to me at: guilherme.amadio@gmail.com.
+

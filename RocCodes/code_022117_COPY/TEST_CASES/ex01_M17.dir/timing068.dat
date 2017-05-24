@@ -1,0 +1,29 @@
+
+ --------------------------------------------------------------
+ INITIALIZATION TIMES:
+    Input                :=   6.9134875008854861E-310 seconds
+    PackTime             :=   7.3966026306152344E-002 seconds
+    IC-I                 :=   1.0327289962658242E-314 seconds
+    IC-II                :=   5.4347221042537120E-323 seconds
+    Quadrant             :=   6.9134875999379901E-310 seconds
+    DecompTime           :=   6.9134864160254788E-310 seconds
+    GridTime             :=   3.4584595208887258E-323 seconds
+    InitPsiTime          :=   3.4584595208887258E-323 seconds
+    TotalSetupTime       :=   6.9134876004486563E-310 seconds
+    MaxSetupTime         :=   6.9134876004486563E-310 seconds
+ -------------------------------------------------------------
+ LOOP TIMES:
+    TXY                  :=   2.1219957909652723E-314 seconds
+    Psi                  :=   0.0000000000000000      seconds
+    Phi                  :=   6.9134622869652030E-310 seconds
+    BCond                :=   1.4560404209163784E-314 seconds
+    Communication time   :=   0.0000000000000000      seconds
+    Gausscomm  time      :=   0.0000000000000000      seconds
+    TotalTimeLoop        :=   8191.8139169216156      seconds
+    MaxTotalTimeLoop     :=   8191.8139169216156      seconds
+ ------------------------------------------------------------
+ OUTPUT TIME:
+    FinalOutput               :=   2.5680398941040039      seconds
+ ---------------------------------------------------------
+    Total Execution Time :=   8195.1915416717529      seconds
+ ------------------------------------------------------------

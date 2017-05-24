@@ -1,0 +1,18 @@
+#!/usr/bin/env pack -D
+
+set packing_fraction = 0.4;
+
+#import "../shapes/cl"
+#import "../shapes/rdx"
+import "../shapes/adn"
+import "../shapes/hmx"
+#import "../shapes/petn"
+
+boundary { box 1.0 1.0 1.0 periodic }
+
+#create 100 cl  size 1.0;
+#create 100 rdx size 1.0;
+create 200 adn  size 1.0;
+create 200 hmx  size 1.0;
+#create 100 petn size 1.0;
+

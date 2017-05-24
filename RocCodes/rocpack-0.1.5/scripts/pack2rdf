@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# usage: pack2rdftool input.pack output.dat
+
+sed -ne '/translate/{N;N;s/\n\|<\|>\|,//g;p}' $1 |
+awk '{printf "% f % f % f %f %d\n", $2, $3, $4, $11, $17}' > ${2:-output.dat}
+

@@ -1,0 +1,23 @@
+#!/usr/bin/env pack-ls -D
+
+set packing_fraction = 0.5;
+
+# Please uncomment the desired boundary below
+
+# Box: width height depth [solid|periodic]
+ boundary { box 1.8 1.0 0.6 solid }
+
+# Sphere: radius
+# boundary { sphere 1.0 }
+
+# Cylinder: radius height
+# boundary { cylinder 0.5 1.4 }
+
+# Annulus: inner outer height
+# boundary { annulus 0.4 0.7 1.3 }
+
+# Torus: major minor
+# boundary { torus 0.65 0.25 }
+
+create 3000 sphere size 1.0;
+

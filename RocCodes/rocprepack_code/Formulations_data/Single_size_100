@@ -1,0 +1,16 @@
+'Single cut, Single size 100 micron AP'
+'Cuboid'
+3                       # idim
+-1	                # height
+
+1			# iblend_max
+1000			# ntot, total number of particles
+0.92                    # binder density
+
+singlesize	 	# cut name
+AP			# cut type
+100.0      		# diameter for single size
+1.95                    # density
+0.6			# weight fraction
+5.0			# d_cutoff
+0d0			# coating parameter; micron

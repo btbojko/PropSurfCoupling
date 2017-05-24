@@ -1,0 +1,32 @@
+'Propellant: Cylinder; Bimodal AP 390 and 49.0 and Al 30'
+'Cylinder'
+3                       # idim
+-2	                # height
+
+3                       # iblend_max
+30000        	        # ntot, total number of particles
+0.92                    # binder density
+
+singlesize		# cut name
+AP                      # cut type
+390.0       		# diameter for single size
+1.95                    # density
+0.45     		# weight fraction
+20.0     	     	# d_cutoff
+0d0			# coating parameter; micron
+
+singlesize		# cut name
+AP                      # cut type
+49.0       		# diameter for single size
+1.95                    # density
+0.14    		# weight fraction
+20.0     	     	# d_cutoff
+0d0			# coating parameter; micron
+
+singlesize       	# cut name
+Al                      # cut type
+30.0       		# diameter for single size
+2.70                    # density
+0.10    		# weight fraction
+5.0     	     	# d_cutoff
+0d0			# coating parameter; micron

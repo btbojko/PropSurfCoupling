@@ -1,0 +1,268 @@
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding H informations:
+	molecular weight: 0.001008 kg/mol
+	formation enthalpy @0 K: 2.1432e+08 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding H2 informations:
+	molecular weight: 0.002016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding H2O2 informations:
+	molecular weight: 0.0340148 kg/mol
+	formation enthalpy @0 K: -3.81867e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding HO2 informations:
+	molecular weight: 0.0330068 kg/mol
+	formation enthalpy @0 K: 452392 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species H2
+	vibrational temperature: 6331.4 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+H
+H2O2
+HO2
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+WARNING:
+Electronic levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat.
+Missing molecule(s) is(are):
+H
+H2
+H2O2
+HO2
+Having opened file ../test/input_files/orders_xml.inp
+Reaction "0001":
+ eqn: H2O2 + H [=] HO2 + H2
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1.5, H:1,0.5, 
+    H2O2 1
+    H 1
+   products: HO2:1,2, H2:1,1, 
+    HO2 1
+    H2 1
+ rate: Arrhenius model
+   A: 4.82e+13 cm3/mol/s
+   E: 7950 cal/mol
+
+
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit H
+Adding curve fit H2
+Adding curve fit H2O2
+Adding curve fit HO2
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding H informations:
+	molecular weight: 0.001008 kg/mol
+	formation enthalpy @0 K: 2.1432e+08 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding H2 informations:
+	molecular weight: 0.002016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding H2O2 informations:
+	molecular weight: 0.0340148 kg/mol
+	formation enthalpy @0 K: -3.81867e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding HO2 informations:
+	molecular weight: 0.0330068 kg/mol
+	formation enthalpy @0 K: 452392 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species H2
+	vibrational temperature: 6331.4 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+H
+H2O2
+HO2
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+WARNING:
+Electronic levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat.
+Missing molecule(s) is(are):
+H
+H2
+H2O2
+HO2
+Having opened file ../test/input_files/orders_chemkin.inp
+Reaction "H2O2+H=HO2+H2":
+ eqn: H2O2+H=HO2+H2
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1.5, H:1,0.5, 
+    H2O2 1
+    H 1
+   products: HO2:1,2, H2:1,1, 
+    HO2 1
+    H2 1
+ rate: Kooij model
+   A: 4.82e+13 cm3/mol/s
+In reaction H2O2+H=HO2+H2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 7950 cal/mol
+
+
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit H
+Adding curve fit H2
+Adding curve fit H2O2
+Adding curve fit HO2
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding H informations:
+	molecular weight: 0.001008 kg/mol
+	formation enthalpy @0 K: 2.1432e+08 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding H2 informations:
+	molecular weight: 0.002016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding H2O2 informations:
+	molecular weight: 0.0340148 kg/mol
+	formation enthalpy @0 K: -3.81867e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding HO2 informations:
+	molecular weight: 0.0330068 kg/mol
+	formation enthalpy @0 K: 452391 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species H2
+	vibrational temperature: 6331.4 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+H
+H2O2
+HO2
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+WARNING:
+Electronic levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat.
+Missing molecule(s) is(are):
+H
+H2
+H2O2
+HO2
+Having opened file ../test/input_files/orders_xml.inp
+Reaction "0001":
+ eqn: H2O2 + H [=] HO2 + H2
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1.5, H:1,0.5, 
+    H2O2 1
+    H 1
+   products: HO2:1,2, H2:1,1, 
+    HO2 1
+    H2 1
+ rate: Arrhenius model
+   A: 4.82e+13 cm3/mol/s
+   E: 7950 cal/mol
+
+
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit H
+Adding curve fit H2
+Adding curve fit H2O2
+Adding curve fit HO2
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding H informations:
+	molecular weight: 0.001008 kg/mol
+	formation enthalpy @0 K: 2.1432e+08 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding H2 informations:
+	molecular weight: 0.002016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding H2O2 informations:
+	molecular weight: 0.0340148 kg/mol
+	formation enthalpy @0 K: -3.81867e+06 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Adding HO2 informations:
+	molecular weight: 0.0330068 kg/mol
+	formation enthalpy @0 K: 452391 J/mol
+	trans-rot degrees of freedom: 3
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species H2
+	vibrational temperature: 6331.4 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+H
+H2O2
+HO2
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+WARNING:
+Electronic levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat.
+Missing molecule(s) is(are):
+H
+H2
+H2O2
+HO2
+Having opened file ../test/input_files/orders_chemkin.inp
+Reaction "H2O2+H=HO2+H2":
+ eqn: H2O2+H=HO2+H2
+ type: Elementary
+reversible: 1
+
+   reactants: H2O2:1,1.5, H:1,0.5, 
+    H2O2 1
+    H 1
+   products: HO2:1,2, H2:1,1, 
+    HO2 1
+    H2 1
+ rate: Kooij model
+   A: 4.82e+13 cm3/mol/s
+In reaction H2O2+H=HO2+H2
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+   b: 0
+   E: 7950 cal/mol
+
+
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit H
+Adding curve fit H2
+Adding curve fit H2O2
+Adding curve fit HO2

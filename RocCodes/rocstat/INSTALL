@@ -1,0 +1,20 @@
+
+INSTALL
+=======
+
+	To compile all programs, simply type 'make' in the command-line, as
+	shown below:
+
+	$ make
+
+	If you want to install the binaries in your home directory, you can type
+	make install:
+
+	$ make install
+
+	Please remember to add ${HOME}/bin to your $PATH variable if you do so.
+	If you have privileged access to the machine, you can type sudo make
+	install-local, to install the binaries in /usr/local/bin.
+
+	If you have any further questions, please contact one of the authors.
+

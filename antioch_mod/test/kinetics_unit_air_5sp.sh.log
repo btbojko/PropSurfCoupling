@@ -1,0 +1,1686 @@
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding N informations:
+	molecular weight: 0.014008 kg/mol
+	formation enthalpy @0 K: 3.36216e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding NO informations:
+	molecular weight: 0.030008 kg/mol
+	formation enthalpy @0 K: 2.99612e+06 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding O informations:
+	molecular weight: 0.016 kg/mol
+	formation enthalpy @0 K: 1.542e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding O2 informations:
+	molecular weight: 0.032 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+Adding vibrational data of species NO
+	vibrational temperature: 2817 K
+	degeneracy: 1
+Adding vibrational data of species O2
+	vibrational temperature: 2239 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+N
+O
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species N
+	electronic temperature: 27664.7 K
+	degeneracy: 10
+Adding electronic data of species N
+	electronic temperature: 41493.1 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+Adding electronic data of species NO
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 54673.5 K
+	degeneracy: 8
+Adding electronic data of species NO
+	electronic temperature: 63171.4 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 65994.5 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 69061.2 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 70500 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 74910.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 76288.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 86761.9 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 87144.3 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 88860.8 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89817.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89884.5 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90427 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90642.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 91117.6 K
+	degeneracy: 4
+Adding electronic data of species O
+	electronic temperature: 0 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 227.708 K
+	degeneracy: 3
+Adding electronic data of species O
+	electronic temperature: 326.569 K
+	degeneracy: 1
+Adding electronic data of species O
+	electronic temperature: 22830.3 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 48619.9 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 0 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 11391.6 K
+	degeneracy: 2
+Adding electronic data of species O2
+	electronic temperature: 18984.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 47559.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 49912.4 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 50922.7 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 71898.6 K
+	degeneracy: 3
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions!
+../src/thermo/include/antioch/cea_mixture.h, line 50, compiled Apr  4 2017 at 16:11:01 ***
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions!
+parsing/src/cea_mixture_ascii_parsing.C, line 47, compiled Apr  4 2017 at 15:38:59 ***
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit N
+Adding curve fit N2
+Adding curve fit NO
+Adding curve fit O
+Adding curve fit O2
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions!
+../src/thermo/include/antioch/cea_evaluator.h, line 50, compiled Apr  4 2017 at 16:11:01 ***
+N:2,2, 
+*** Warning, The parameter A is not given a unit
+default unit given is m3/kmol/s
+parsing/src/read_reaction_set_data.C, line 52, compiled Apr  4 2017 at 15:39:40 ***
+
+*** Warning, The parameter Tref is not provided
+default parameter is 1 K
+parsing/src/read_reaction_set_data.C, line 477, compiled Apr  4 2017 at 15:39:40 ***
+O:2,2, N:1,1, O:1,1, In reaction 0003
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+NO:1,1, N:1,1, O2:1,1, N:1,1, In reaction 0005
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+C:2,2, C:1,1, N:1,1, H:2,2, C2:1,1, O:1,1, O2:1,1, C:1,1, CN:1,1, O:1,1, CN:1,1, N:1,1, NO:1,1, C:1,1, C3:1,1, O:1,1, CN:1,1, C2:1,1, C2:2,2, C2:1,1, H2:1,1, N:2,2, e-:1,1, O+:1,1, e-:2,2, N+:1,1, e-:2,2, C+:1,1, e-:2,2, H+:1,1, e-:2,2, NO+:1,1, e-:1,1, N2+:1,1, e-:1,1, CO2:1,1, C:1,1, CO2:1,1, N:1,1, O2:1,1, CO:1,1, In reaction(s) including 0029
+An equation of the form "A * (T/Tref)^beta * exp(-Ea/(R*T))" is a Kooij equation,
+I guess a modified Arrhenius could be a name too.  Whatever, the correct label is
+"Kooij", or, << à la limite >> "ModifiedArrhenius".  Please use those terms instead,
+thanks and a good day to you, user.
+CO:1,1, O:1,1, C:1,1, O:1,1, Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding N informations:
+	molecular weight: 0.014008 kg/mol
+	formation enthalpy @0 K: 3.36216e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding NO informations:
+	molecular weight: 0.030008 kg/mol
+	formation enthalpy @0 K: 2.99612e+06 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding O informations:
+	molecular weight: 0.016 kg/mol
+	formation enthalpy @0 K: 1.542e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding O2 informations:
+	molecular weight: 0.032 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+Adding vibrational data of species NO
+	vibrational temperature: 2817 K
+	degeneracy: 1
+Adding vibrational data of species O2
+	vibrational temperature: 2239 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+N
+O
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species N
+	electronic temperature: 27664.7 K
+	degeneracy: 10
+Adding electronic data of species N
+	electronic temperature: 41493.1 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+Adding electronic data of species NO
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 54673.5 K
+	degeneracy: 8
+Adding electronic data of species NO
+	electronic temperature: 63171.4 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 65994.5 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 69061.2 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 70500 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 74910.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 76288.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 86761.9 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 87144.3 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 88860.8 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89817.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89884.5 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90427 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90642.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 91117.6 K
+	degeneracy: 4
+Adding electronic data of species O
+	electronic temperature: 0 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 227.708 K
+	degeneracy: 3
+Adding electronic data of species O
+	electronic temperature: 326.569 K
+	degeneracy: 1
+Adding electronic data of species O
+	electronic temperature: 22830.3 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 48619.9 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 0 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 11391.6 K
+	degeneracy: 2
+Adding electronic data of species O2
+	electronic temperature: 18984.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 47559.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 49912.4 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 50922.7 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 71898.6 K
+	degeneracy: 3
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions!
+../src/thermo/include/antioch/cea_mixture.h, line 50, compiled Apr  4 2017 at 16:11:01 ***
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions!
+parsing/src/cea_mixture_ascii_parsing.C, line 47, compiled Apr  4 2017 at 15:38:59 ***
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit N
+Adding curve fit N2
+Adding curve fit NO
+Adding curve fit O
+Adding curve fit O2
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions!
+../src/thermo/include/antioch/cea_evaluator.h, line 50, compiled Apr  4 2017 at 16:11:01 ***
+N:2,2, 
+*** Warning, The parameter A is not given a unit
+default unit given is m3/kmol/s
+parsing/src/read_reaction_set_data.C, line 52, compiled Apr  4 2017 at 15:39:40 ***
+
+*** Warning, The parameter Tref is not provided
+default parameter is 1 K
+parsing/src/read_reaction_set_data.C, line 477, compiled Apr  4 2017 at 15:39:40 ***
+O:2,2, N:1,1, O:1,1, In reaction 0003
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+NO:1,1, N:1,1, O2:1,1, N:1,1, In reaction 0005
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+C:2,2, C:1,1, N:1,1, H:2,2, C2:1,1, O:1,1, O2:1,1, C:1,1, CN:1,1, O:1,1, CN:1,1, N:1,1, NO:1,1, C:1,1, C3:1,1, O:1,1, CN:1,1, C2:1,1, C2:2,2, C2:1,1, H2:1,1, N:2,2, e-:1,1, O+:1,1, e-:2,2, N+:1,1, e-:2,2, C+:1,1, e-:2,2, H+:1,1, e-:2,2, NO+:1,1, e-:1,1, N2+:1,1, e-:1,1, CO2:1,1, C:1,1, CO2:1,1, N:1,1, O2:1,1, CO:1,1, In reaction(s) including 0029
+An equation of the form "A * (T/Tref)^beta * exp(-Ea/(R*T))" is a Kooij equation,
+I guess a modified Arrhenius could be a name too.  Whatever, the correct label is
+"Kooij", or, << à la limite >> "ModifiedArrhenius".  Please use those terms instead,
+thanks and a good day to you, user.
+CO:1,1, O:1,1, C:1,1, O:1,1, Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding N informations:
+	molecular weight: 0.014008 kg/mol
+	formation enthalpy @0 K: 3.36216e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding NO informations:
+	molecular weight: 0.030008 kg/mol
+	formation enthalpy @0 K: 2.99612e+06 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding O informations:
+	molecular weight: 0.016 kg/mol
+	formation enthalpy @0 K: 1.542e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding O2 informations:
+	molecular weight: 0.032 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+Adding vibrational data of species NO
+	vibrational temperature: 2817 K
+	degeneracy: 1
+Adding vibrational data of species O2
+	vibrational temperature: 2239 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+N
+O
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species N
+	electronic temperature: 27664.7 K
+	degeneracy: 10
+Adding electronic data of species N
+	electronic temperature: 41493.1 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+Adding electronic data of species NO
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 54673.5 K
+	degeneracy: 8
+Adding electronic data of species NO
+	electronic temperature: 63171.4 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 65994.5 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 69061.2 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 70500 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 74910.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 76288.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 86761.9 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 87144.3 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 88860.8 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89817.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89884.5 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90427 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90642.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 91117.6 K
+	degeneracy: 4
+Adding electronic data of species O
+	electronic temperature: 0 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 227.708 K
+	degeneracy: 3
+Adding electronic data of species O
+	electronic temperature: 326.569 K
+	degeneracy: 1
+Adding electronic data of species O
+	electronic temperature: 22830.3 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 48619.9 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 0 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 11391.6 K
+	degeneracy: 2
+Adding electronic data of species O2
+	electronic temperature: 18984.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 47559.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 49912.4 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 50922.7 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 71898.6 K
+	degeneracy: 3
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions!
+../src/thermo/include/antioch/cea_mixture.h, line 50, compiled Apr  4 2017 at 16:11:01 ***
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions!
+parsing/src/cea_mixture_ascii_parsing.C, line 47, compiled Apr  4 2017 at 15:38:59 ***
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit N
+Adding curve fit N2
+Adding curve fit NO
+Adding curve fit O
+Adding curve fit O2
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions!
+../src/thermo/include/antioch/cea_evaluator.h, line 50, compiled Apr  4 2017 at 16:11:01 ***
+N:2,2, 
+*** Warning, The parameter A is not given a unit
+default unit given is m3/kmol/s
+parsing/src/read_reaction_set_data.C, line 52, compiled Apr  4 2017 at 15:39:40 ***
+
+*** Warning, The parameter Tref is not provided
+default parameter is 1 K
+parsing/src/read_reaction_set_data.C, line 477, compiled Apr  4 2017 at 15:39:40 ***
+O:2,2, N:1,1, O:1,1, In reaction 0003
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+NO:1,1, N:1,1, O2:1,1, N:1,1, In reaction 0005
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+C:2,2, C:1,1, N:1,1, H:2,2, C2:1,1, O:1,1, O2:1,1, C:1,1, CN:1,1, O:1,1, CN:1,1, N:1,1, NO:1,1, C:1,1, C3:1,1, O:1,1, CN:1,1, C2:1,1, C2:2,2, C2:1,1, H2:1,1, N:2,2, e-:1,1, O+:1,1, e-:2,2, N+:1,1, e-:2,2, C+:1,1, e-:2,2, H+:1,1, e-:2,2, NO+:1,1, e-:1,1, N2+:1,1, e-:1,1, CO2:1,1, C:1,1, CO2:1,1, N:1,1, O2:1,1, CO:1,1, In reaction(s) including 0029
+An equation of the form "A * (T/Tref)^beta * exp(-Ea/(R*T))" is a Kooij equation,
+I guess a modified Arrhenius could be a name too.  Whatever, the correct label is
+"Kooij", or, << à la limite >> "ModifiedArrhenius".  Please use those terms instead,
+thanks and a good day to you, user.
+CO:1,1, O:1,1, C:1,1, O:1,1, Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding N informations:
+	molecular weight: 0.014008 kg/mol
+	formation enthalpy @0 K: 3.36216e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding NO informations:
+	molecular weight: 0.030008 kg/mol
+	formation enthalpy @0 K: 2.99612e+06 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding O informations:
+	molecular weight: 0.016 kg/mol
+	formation enthalpy @0 K: 1.542e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding O2 informations:
+	molecular weight: 0.032 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+Adding vibrational data of species NO
+	vibrational temperature: 2817 K
+	degeneracy: 1
+Adding vibrational data of species O2
+	vibrational temperature: 2239 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+N
+O
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species N
+	electronic temperature: 27664.7 K
+	degeneracy: 10
+Adding electronic data of species N
+	electronic temperature: 41493.1 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+Adding electronic data of species NO
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 54673.5 K
+	degeneracy: 8
+Adding electronic data of species NO
+	electronic temperature: 63171.4 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 65994.5 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 69061.2 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 70500 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 74910.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 76288.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 86761.9 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 87144.3 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 88860.8 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89817.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89884.5 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90427 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90642.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 91117.6 K
+	degeneracy: 4
+Adding electronic data of species O
+	electronic temperature: 0 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 227.708 K
+	degeneracy: 3
+Adding electronic data of species O
+	electronic temperature: 326.569 K
+	degeneracy: 1
+Adding electronic data of species O
+	electronic temperature: 22830.3 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 48619.9 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 0 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 11391.6 K
+	degeneracy: 2
+Adding electronic data of species O2
+	electronic temperature: 18984.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 47559.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 49912.4 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 50922.7 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 71898.6 K
+	degeneracy: 3
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit N
+Adding curve fit N2
+Adding curve fit NO
+Adding curve fit O
+Adding curve fit O2
+N:2,2, O:2,2, N:1,1, O:1,1, In reaction 0003
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+NO:1,1, N:1,1, O2:1,1, N:1,1, In reaction 0005
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+C:2,2, C:1,1, N:1,1, H:2,2, C2:1,1, O:1,1, O2:1,1, C:1,1, CN:1,1, O:1,1, CN:1,1, N:1,1, NO:1,1, C:1,1, C3:1,1, O:1,1, CN:1,1, C2:1,1, C2:2,2, C2:1,1, H2:1,1, N:2,2, e-:1,1, O+:1,1, e-:2,2, N+:1,1, e-:2,2, C+:1,1, e-:2,2, H+:1,1, e-:2,2, NO+:1,1, e-:1,1, N2+:1,1, e-:1,1, CO2:1,1, C:1,1, CO2:1,1, N:1,1, O2:1,1, CO:1,1, CO:1,1, O:1,1, C:1,1, O:1,1, Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding N informations:
+	molecular weight: 0.014008 kg/mol
+	formation enthalpy @0 K: 3.36216e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding NO informations:
+	molecular weight: 0.030008 kg/mol
+	formation enthalpy @0 K: 2.99612e+06 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding O informations:
+	molecular weight: 0.016 kg/mol
+	formation enthalpy @0 K: 1.542e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding O2 informations:
+	molecular weight: 0.032 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+Adding vibrational data of species NO
+	vibrational temperature: 2817 K
+	degeneracy: 1
+Adding vibrational data of species O2
+	vibrational temperature: 2239 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+N
+O
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species N
+	electronic temperature: 27664.7 K
+	degeneracy: 10
+Adding electronic data of species N
+	electronic temperature: 41493.1 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+Adding electronic data of species NO
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 54673.5 K
+	degeneracy: 8
+Adding electronic data of species NO
+	electronic temperature: 63171.4 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 65994.5 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 69061.2 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 70500 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 74910.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 76288.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 86761.9 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 87144.3 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 88860.8 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89817.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89884.5 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90427 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90642.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 91117.6 K
+	degeneracy: 4
+Adding electronic data of species O
+	electronic temperature: 0 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 227.708 K
+	degeneracy: 3
+Adding electronic data of species O
+	electronic temperature: 326.569 K
+	degeneracy: 1
+Adding electronic data of species O
+	electronic temperature: 22830.3 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 48619.9 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 0 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 11391.6 K
+	degeneracy: 2
+Adding electronic data of species O2
+	electronic temperature: 18984.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 47559.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 49912.4 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 50922.7 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 71898.6 K
+	degeneracy: 3
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit N
+Adding curve fit N2
+Adding curve fit NO
+Adding curve fit O
+Adding curve fit O2
+N:2,2, O:2,2, N:1,1, O:1,1, In reaction 0003
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+NO:1,1, N:1,1, O2:1,1, N:1,1, In reaction 0005
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+C:2,2, C:1,1, N:1,1, H:2,2, C2:1,1, O:1,1, O2:1,1, C:1,1, CN:1,1, O:1,1, CN:1,1, N:1,1, NO:1,1, C:1,1, C3:1,1, O:1,1, CN:1,1, C2:1,1, C2:2,2, C2:1,1, H2:1,1, N:2,2, e-:1,1, O+:1,1, e-:2,2, N+:1,1, e-:2,2, C+:1,1, e-:2,2, H+:1,1, e-:2,2, NO+:1,1, e-:1,1, N2+:1,1, e-:1,1, CO2:1,1, C:1,1, CO2:1,1, N:1,1, O2:1,1, CO:1,1, CO:1,1, O:1,1, C:1,1, O:1,1, Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding N informations:
+	molecular weight: 0.014008 kg/mol
+	formation enthalpy @0 K: 3.36216e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding NO informations:
+	molecular weight: 0.030008 kg/mol
+	formation enthalpy @0 K: 2.99612e+06 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding O informations:
+	molecular weight: 0.016 kg/mol
+	formation enthalpy @0 K: 1.542e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding O2 informations:
+	molecular weight: 0.032 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+Adding vibrational data of species NO
+	vibrational temperature: 2817 K
+	degeneracy: 1
+Adding vibrational data of species O2
+	vibrational temperature: 2239 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+N
+O
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species N
+	electronic temperature: 27664.7 K
+	degeneracy: 10
+Adding electronic data of species N
+	electronic temperature: 41493.1 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+Adding electronic data of species NO
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 54673.5 K
+	degeneracy: 8
+Adding electronic data of species NO
+	electronic temperature: 63171.4 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 65994.5 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 69061.2 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 70500 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 74910.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 76288.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 86761.9 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 87144.3 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 88860.8 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89817.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89884.5 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90427 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90642.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 91117.6 K
+	degeneracy: 4
+Adding electronic data of species O
+	electronic temperature: 0 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 227.708 K
+	degeneracy: 3
+Adding electronic data of species O
+	electronic temperature: 326.569 K
+	degeneracy: 1
+Adding electronic data of species O
+	electronic temperature: 22830.3 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 48619.9 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 0 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 11391.6 K
+	degeneracy: 2
+Adding electronic data of species O2
+	electronic temperature: 18984.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 47559.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 49912.4 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 50922.7 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 71898.6 K
+	degeneracy: 3
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit N
+Adding curve fit N2
+Adding curve fit NO
+Adding curve fit O
+Adding curve fit O2
+N:2,2, O:2,2, N:1,1, O:1,1, In reaction 0003
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+NO:1,1, N:1,1, O2:1,1, N:1,1, In reaction 0005
+An equation of the form "A * exp(-Ea/(R*T))" is an Arrhenius equation,
+and most certainly not a Kooij one
+it has been corrected, but please, change that in your file.
+Thanks and a good day to you, user.
+C:2,2, C:1,1, N:1,1, H:2,2, C2:1,1, O:1,1, O2:1,1, C:1,1, CN:1,1, O:1,1, CN:1,1, N:1,1, NO:1,1, C:1,1, C3:1,1, O:1,1, CN:1,1, C2:1,1, C2:2,2, C2:1,1, H2:1,1, N:2,2, e-:1,1, O+:1,1, e-:2,2, N+:1,1, e-:2,2, C+:1,1, e-:2,2, H+:1,1, e-:2,2, NO+:1,1, e-:1,1, N2+:1,1, e-:1,1, CO2:1,1, C:1,1, CO2:1,1, N:1,1, O2:1,1, CO:1,1, CO:1,1, O:1,1, C:1,1, O:1,1, Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding N informations:
+	molecular weight: 0.014008 kg/mol
+	formation enthalpy @0 K: 3.36216e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+N
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species N
+	electronic temperature: 27664.7 K
+	degeneracy: 10
+Adding electronic data of species N
+	electronic temperature: 41493.1 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit N
+Adding curve fit N2
+N:2,2, O:2,2, N:1,1, O:1,1, NO:1,1, N:1,1, O2:1,1, N:1,1, C:2,2, C:1,1, N:1,1, H:2,2, C2:1,1, O:1,1, O2:1,1, C:1,1, CN:1,1, O:1,1, CN:1,1, N:1,1, NO:1,1, C:1,1, C3:1,1, O:1,1, CN:1,1, C2:1,1, C2:2,2, C2:1,1, H2:1,1, N:2,2, e-:1,1, O+:1,1, e-:2,2, N+:1,1, e-:2,2, C+:1,1, e-:2,2, H+:1,1, e-:2,2, NO+:1,1, e-:1,1, N2+:1,1, e-:1,1, CO2:1,1, C:1,1, CO2:1,1, N:1,1, O2:1,1, CO:1,1, CO:1,1, O:1,1, C:1,1, O:1,1, # molar units considered for those budgets (kmol, m3, s)
+# formatted as follow:
+# rows: species, columns: reactions
+#
+#         |                        equation
+#         |  rate coefficient forward , rate coefficient backward
+#         |  forward concentrations   , backward concentrations
+#         |  rate forward             , rate backward
+# ------------------------------------------------------------------
+# species |  production term          ,  loss term
+# species |  net production/loss term
+#
+
+                       N2 + M [=] 2 N + M
+              1.22299e-85,    2.42677e+06
+                  8.01816,        257.163
+              9.80614e-85,    6.24076e+08
+----------------------------
+        N2   6.240762e+08,  -9.806145e-85
+                   6.2407622526804662e+08
+         N   1.961229e-84,  -1.248152e+09
+                  -1.2481524505360932e+09
+
+
+
+# production table
+
+                       N2 + M [=] 2 N + M                          Total
+        N2         6.2407622526804662e+08         6.2407622526804662e+08
+         N         1.9612289660034543e-84         1.9612289660034543e-84
+
+
+# loss table
+
+                       N2 + M [=] 2 N + M                          Total
+        N2        -9.8061448300172716e-85        -9.8061448300172716e-85
+         N        -1.2481524505360932e+09        -1.2481524505360932e+09
+
+
+# net table
+
+                       N2 + M [=] 2 N + M                          Total
+        N2         6.2407622526804662e+08         6.2407622526804662e+08
+         N        -1.2481524505360932e+09        -1.2481524505360932e+09
+     Total        -6.2407622526804662e+08
+
+sum of row sums:    -6.2407622526804662e+08
+sum of column sums: -6.2407622526804662e+08
+
+# net table, mass here (kg, m3, s)
+
+                       N2 + M [=] 2 N + M                          Total
+        N2         6.2407622526804662e+08         1.7484119527109593e+07
+         N        -1.2481524505360932e+09        -1.7484119527109593e+07
+     Total        -6.2407622526804662e+08
+
+
+
+# Mixture informations
+# species / concentration / molar mass
+        N2         8.0181575025360505e+00         2.8015999999999999e-02
+         N         1.6036315005072101e+01         1.4008000000000000e-02
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding N informations:
+	molecular weight: 1.4008000000000000e-02 kg/mol
+	formation enthalpy @0 K: 3.3621610000000000e+07 J/mol
+	trans-rot degrees of freedom: 1.5000000000000000e+00
+	charge: 0
+Adding N2 informations:
+	molecular weight: 2.8016000000000000e-02 kg/mol
+	formation enthalpy @0 K: 0.0000000000000000e+00 J/mol
+	trans-rot degrees of freedom: 2.5000000000000000e+00
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3.3950000000000000e+03 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+N
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N
+	electronic temperature: 0.0000000000000000e+00 K
+	degeneracy: 4
+Adding electronic data of species N
+	electronic temperature: 2.7664700000000000e+04 K
+	degeneracy: 10
+Adding electronic data of species N
+	electronic temperature: 4.1493100000000000e+04 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 0.0000000000000000e+00 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 7.2231600000000000e+04 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 8.5778600000000000e+04 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 8.6050300000000000e+04 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 9.5351200000000000e+04 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 9.8056400000000000e+04 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 9.9682700000000000e+04 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 1.0489800000000000e+05 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 1.1164900000000000e+05 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 1.2258400000000000e+05 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 1.2488600000000000e+05 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 1.2824800000000000e+05 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 1.3380600000000000e+05 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 1.4043000000000000e+05 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 1.5049600000000000e+05 K
+	degeneracy: 6
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit N
+Adding curve fit N2
+N:2,2.0000000000000000e+00, O:2,2.0000000000000000e+00, N:1,1.0000000000000000e+00, O:1,1.0000000000000000e+00, NO:1,1.0000000000000000e+00, N:1,1.0000000000000000e+00, O2:1,1.0000000000000000e+00, N:1,1.0000000000000000e+00, C:2,2.0000000000000000e+00, C:1,1.0000000000000000e+00, N:1,1.0000000000000000e+00, H:2,2.0000000000000000e+00, C2:1,1.0000000000000000e+00, O:1,1.0000000000000000e+00, O2:1,1.0000000000000000e+00, C:1,1.0000000000000000e+00, CN:1,1.0000000000000000e+00, O:1,1.0000000000000000e+00, CN:1,1.0000000000000000e+00, N:1,1.0000000000000000e+00, NO:1,1.0000000000000000e+00, C:1,1.0000000000000000e+00, C3:1,1.0000000000000000e+00, O:1,1.0000000000000000e+00, CN:1,1.0000000000000000e+00, C2:1,1.0000000000000000e+00, C2:2,2.0000000000000000e+00, C2:1,1.0000000000000000e+00, H2:1,1.0000000000000000e+00, N:2,2.0000000000000000e+00, e-:1,1.0000000000000000e+00, O+:1,1.0000000000000000e+00, e-:2,2.0000000000000000e+00, N+:1,1.0000000000000000e+00, e-:2,2.0000000000000000e+00, C+:1,1.0000000000000000e+00, e-:2,2.0000000000000000e+00, H+:1,1.0000000000000000e+00, e-:2,2.0000000000000000e+00, NO+:1,1.0000000000000000e+00, e-:1,1.0000000000000000e+00, N2+:1,1.0000000000000000e+00, e-:1,1.0000000000000000e+00, CO2:1,1.0000000000000000e+00, C:1,1.0000000000000000e+00, CO2:1,1.0000000000000000e+00, N:1,1.0000000000000000e+00, O2:1,1.0000000000000000e+00, CO:1,1.0000000000000000e+00, CO:1,1.0000000000000000e+00, O:1,1.0000000000000000e+00, C:1,1.0000000000000000e+00, O:1,1.0000000000000000e+00, # molar units considered for those budgets (kmol, m3, s)
+# formatted as follow:
+# rows: species, columns: reactions
+#
+#         |                        equation
+#         |  rate coefficient forward , rate coefficient backward
+#         |  forward concentrations   , backward concentrations
+#         |  rate forward             , rate backward
+# ------------------------------------------------------------------
+# species |  production term          ,  loss term
+# species |  net production/loss term
+#
+
+                       N2 + M [=] 2 N + M
+          1.2229922930443290e-85,2.4267692363524989e+06
+          8.0181575025360523e+00,2.5716339894190071e+02
+          9.8061448300171569e-85,6.2407622526804940e+08
+----------------------------
+        N2   6.240762e+08,  -9.806145e-85
+                   6.2407622526804940e+08
+         N   1.961229e-84,  -1.248152e+09
+                  -1.2481524505360988e+09
+
+
+
+# production table
+
+                       N2 + M [=] 2 N + M                          Total
+        N2         6.2407622526804940e+08         6.2407622526804940e+08
+         N         1.9612289660034314e-84         1.9612289660034314e-84
+
+
+# loss table
+
+                       N2 + M [=] 2 N + M                          Total
+        N2        -9.8061448300171569e-85        -9.8061448300171569e-85
+         N        -1.2481524505360988e+09        -1.2481524505360988e+09
+
+
+# net table
+
+                       N2 + M [=] 2 N + M                          Total
+        N2         6.2407622526804940e+08         6.2407622526804940e+08
+         N        -1.2481524505360988e+09        -1.2481524505360988e+09
+     Total        -6.2407622526804940e+08
+
+sum of row sums:    -6.2407622526804940e+08
+sum of column sums: -6.2407622526804940e+08
+
+# net table, mass here (kg, m3, s)
+
+                       N2 + M [=] 2 N + M                          Total
+        N2         6.2407622526804940e+08         1.7484119527109672e+07
+         N        -1.2481524505360988e+09        -1.7484119527109672e+07
+     Total        -6.2407622526804940e+08
+
+
+
+# Mixture informations
+# species / concentration / molar mass
+        N2         8.0181575025360530e+00         2.8016000000000000e-02
+         N         1.6036315005072106e+01         1.4008000000000000e-02
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding N informations:
+	molecular weight: 1.4008001424372196e-02 kg/mol
+	formation enthalpy @0 K: 3.3621608000000000e+07 J/mol
+	trans-rot degrees of freedom: 1.5000000000000000e+00
+	charge: 0
+Adding N2 informations:
+	molecular weight: 2.8016002848744392e-02 kg/mol
+	formation enthalpy @0 K: 0.0000000000000000e+00 J/mol
+	trans-rot degrees of freedom: 2.5000000000000000e+00
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3.3950000000000000e+03 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+N
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N
+	electronic temperature: 0.0000000000000000e+00 K
+	degeneracy: 4
+Adding electronic data of species N
+	electronic temperature: 2.7664699218750000e+04 K
+	degeneracy: 10
+Adding electronic data of species N
+	electronic temperature: 4.1493101562500000e+04 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 0.0000000000000000e+00 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 7.2231601562500000e+04 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 8.5778601562500000e+04 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 8.6050296875000000e+04 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 9.5351203125000000e+04 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 9.8056398437500000e+04 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 9.9682703125000000e+04 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 1.0489800000000000e+05 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 1.1164900000000000e+05 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 1.2258400000000000e+05 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 1.2488600000000000e+05 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 1.2824800000000000e+05 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 1.3380600000000000e+05 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 1.4043000000000000e+05 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 1.5049600000000000e+05 K
+	degeneracy: 6
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_thermo_data.dat
+Adding curve fit N
+Adding curve fit N2
+N:2,2.0000000000000000e+00, O:2,2.0000000000000000e+00, N:1,1.0000000000000000e+00, O:1,1.0000000000000000e+00, NO:1,1.0000000000000000e+00, N:1,1.0000000000000000e+00, O2:1,1.0000000000000000e+00, N:1,1.0000000000000000e+00, C:2,2.0000000000000000e+00, C:1,1.0000000000000000e+00, N:1,1.0000000000000000e+00, H:2,2.0000000000000000e+00, C2:1,1.0000000000000000e+00, O:1,1.0000000000000000e+00, O2:1,1.0000000000000000e+00, C:1,1.0000000000000000e+00, CN:1,1.0000000000000000e+00, O:1,1.0000000000000000e+00, CN:1,1.0000000000000000e+00, N:1,1.0000000000000000e+00, NO:1,1.0000000000000000e+00, C:1,1.0000000000000000e+00, C3:1,1.0000000000000000e+00, O:1,1.0000000000000000e+00, CN:1,1.0000000000000000e+00, C2:1,1.0000000000000000e+00, C2:2,2.0000000000000000e+00, C2:1,1.0000000000000000e+00, H2:1,1.0000000000000000e+00, N:2,2.0000000000000000e+00, e-:1,1.0000000000000000e+00, O+:1,1.0000000000000000e+00, e-:2,2.0000000000000000e+00, N+:1,1.0000000000000000e+00, e-:2,2.0000000000000000e+00, C+:1,1.0000000000000000e+00, e-:2,2.0000000000000000e+00, H+:1,1.0000000000000000e+00, e-:2,2.0000000000000000e+00, NO+:1,1.0000000000000000e+00, e-:1,1.0000000000000000e+00, N2+:1,1.0000000000000000e+00, e-:1,1.0000000000000000e+00, CO2:1,1.0000000000000000e+00, C:1,1.0000000000000000e+00, CO2:1,1.0000000000000000e+00, N:1,1.0000000000000000e+00, O2:1,1.0000000000000000e+00, CO:1,1.0000000000000000e+00, CO:1,1.0000000000000000e+00, O:1,1.0000000000000000e+00, C:1,1.0000000000000000e+00, O:1,1.0000000000000000e+00, # molar units considered for those budgets (kmol, m3, s)
+# formatted as follow:
+# rows: species, columns: reactions
+#
+#         |                        equation
+#         |  rate coefficient forward , rate coefficient backward
+#         |  forward concentrations   , backward concentrations
+#         |  rate forward             , rate backward
+# ------------------------------------------------------------------
+# species |  production term          ,  loss term
+# species |  net production/loss term
+#
+
+                       N2 + M [=] 2 N + M
+          0.0000000000000000e+00,           -nan
+          8.0181570053100586e+00,2.5716336059570312e+02
+          0.0000000000000000e+00,           -nan
+----------------------------
+        N2           -nan,   0.000000e+00
+                                     -nan
+         N   0.000000e+00,           -nan
+                                     -nan
+
+
+
+# production table
+
+                       N2 + M [=] 2 N + M                          Total
+        N2                           -nan                           -nan
+         N         0.0000000000000000e+00         0.0000000000000000e+00
+
+
+# loss table
+
+                       N2 + M [=] 2 N + M                          Total
+        N2         0.0000000000000000e+00         0.0000000000000000e+00
+         N                           -nan                           -nan
+
+
+# net table
+
+                       N2 + M [=] 2 N + M                          Total
+        N2                           -nan                           -nan
+         N                           -nan                           -nan
+     Total                           -nan
+
+sum of row sums:    -nan
+sum of column sums: -nan
+
+# net table, mass here (kg, m3, s)
+
+                       N2 + M [=] 2 N + M                          Total
+        N2                           -nan                           -nan
+         N                           -nan                           -nan
+     Total                           -nan
+
+
+
+# Mixture informations
+# species / concentration / molar mass
+        N2         8.0181570053100586e+00         2.8016002848744392e-02
+         N         1.6036314010620117e+01         1.4008001424372196e-02

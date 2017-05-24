@@ -1,0 +1,17 @@
+
+# This file defines a square rod with an aspect ratio of 10.
+# You can change the aspect ratio by changing the values below.
+
+shape square_rod {
+	vertices {
+		<-1.0, -10.0,  1.0>, < 1.0, -10.0,  1.0>,
+		<-1.0,  10.0,  1.0>, < 1.0,  10.0,  1.0>,
+		<-1.0,  10.0, -1.0>, < 1.0,  10.0, -1.0>,
+		<-1.0, -10.0, -1.0>, < 1.0, -10.0, -1.0>
+	}
+
+	faces {
+		[0, 1, 3, 2], [2, 3, 5, 4], [4, 5, 7, 6],
+		[6, 7, 1, 0], [1, 7, 5, 3], [6, 0, 2, 4]
+	}
+}

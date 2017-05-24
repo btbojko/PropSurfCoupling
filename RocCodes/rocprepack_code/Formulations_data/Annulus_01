@@ -1,0 +1,25 @@
+'Propellant: Example for 3D case; bimodal AP with no Al'
+'Annulus'
+3                       # idim
+800	                # height
+300			# inner radius
+
+2                       # iblend_max
+16000          	        # ntot, total number of particles
+0.92                    # binder density
+
+singlesize		# cut name
+AP                      # cut type
+50.0      		# diameter for single size
+1.95                    # density
+0.5     		# weight fraction
+5.0     	     	# d_cutoff
+0d0			# coating parameter; micron
+
+singlesize		# cut name
+AP                      # cut type
+20.0      		# diameter for single size
+1.95                    # density
+0.2     		# weight fraction
+5.0     	     	# d_cutoff
+0d0			# coating parameter; micron

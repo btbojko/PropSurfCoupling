@@ -1,0 +1,7 @@
+standard_unit/nasa_mixture_valarray_test.o: \
+ standard_unit/nasa_mixture_valarray_test.C /usr/include/stdc-predef.h \
+ ../antioch_config.h
+
+/usr/include/stdc-predef.h:
+
+../antioch_config.h:

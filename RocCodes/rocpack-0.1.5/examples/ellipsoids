@@ -1,0 +1,10 @@
+#!/usr/bin/env pack -D
+
+set packing_fraction = 0.6;
+
+shape AP { ellipsoid { 1.0 0.8 0.6 } }
+
+boundary { box 1.0 1.0 1.0 periodic }
+
+create 1000 AP size 1.0;
+

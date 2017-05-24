@@ -1,0 +1,300 @@
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding Air informations:
+	molecular weight: 0.02896 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+Air
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+WARNING:
+Electronic levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat.
+Missing molecule(s) is(are):
+Air
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_transport_species_data.dat
+Molecule(s) is(are) missing in transport description.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_transport_species_data.dat.
+You might have some problem later if you need these description.  Missing molecule(s) is(are):
+Air
+Warning: missing transport data for species Air
+Be sure to use a transport model that does not require the default data
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_transport_species_data.dat
+Molecule(s) is(are) missing in transport description.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_transport_species_data.dat.
+You might have some problem later if you need these description.  Missing molecule(s) is(are):
+Air
+Warning: missing transport data for species Air
+Be sure to use a transport model that does not require the default data
+mu(N2) = 1.39931e-06*T^(3/2)/(T + 106.667)
+
+mu(Air) = 1.458e-06*T^(3/2)/(T + 110.3)
+
+
+mu(N2) = 0.1*exp(0.0268142*(logT)^2 + 0.317784*logT + -11.3156)
+
+mu(Air) = 0.1*exp(0.0268142*(logT)^2 + 0.317784*logT + -11.3156)
+
+
+Blottner:
+mu(N2) = {5.22245e-05,5.46792e-05,5.22245e-05,5.46792e-05}
+mu(Air) = {5.22245e-05,5.46792e-05,5.22245e-05,5.46792e-05}
+Sutherland:
+mu(N2) = {5.05988e-05,5.24758e-05,5.05988e-05,5.24758e-05}
+mu(Air) = {5.26022e-05,5.45608e-05,5.26022e-05,5.45608e-05}
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding Air informations:
+	molecular weight: 0.02896 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+Air
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+WARNING:
+Electronic levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat.
+Missing molecule(s) is(are):
+Air
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_transport_species_data.dat
+Molecule(s) is(are) missing in transport description.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_transport_species_data.dat.
+You might have some problem later if you need these description.  Missing molecule(s) is(are):
+Air
+Warning: missing transport data for species Air
+Be sure to use a transport model that does not require the default data
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_transport_species_data.dat
+Molecule(s) is(are) missing in transport description.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_transport_species_data.dat.
+You might have some problem later if you need these description.  Missing molecule(s) is(are):
+Air
+Warning: missing transport data for species Air
+Be sure to use a transport model that does not require the default data
+mu(N2) = 1.39931e-06*T^(3/2)/(T + 106.667)
+
+mu(Air) = 1.458e-06*T^(3/2)/(T + 110.3)
+
+
+mu(N2) = 0.1*exp(0.0268142*(logT)^2 + 0.317784*logT + -11.3156)
+
+mu(Air) = 0.1*exp(0.0268142*(logT)^2 + 0.317784*logT + -11.3156)
+
+
+Blottner:
+mu(N2) = {5.22246e-05,5.46792e-05,5.22246e-05,5.46792e-05}
+mu(Air) = {5.22246e-05,5.46792e-05,5.22246e-05,5.46792e-05}
+Sutherland:
+mu(N2) = {5.05988e-05,5.24758e-05,5.05988e-05,5.24758e-05}
+mu(Air) = {5.26022e-05,5.45608e-05,5.26022e-05,5.45608e-05}
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding Air informations:
+	molecular weight: 0.02896 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+Air
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+WARNING:
+Electronic levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat.
+Missing molecule(s) is(are):
+Air
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_transport_species_data.dat
+Molecule(s) is(are) missing in transport description.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_transport_species_data.dat.
+You might have some problem later if you need these description.  Missing molecule(s) is(are):
+Air
+Warning: missing transport data for species Air
+Be sure to use a transport model that does not require the default data
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_transport_species_data.dat
+Molecule(s) is(are) missing in transport description.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_transport_species_data.dat.
+You might have some problem later if you need these description.  Missing molecule(s) is(are):
+Air
+Warning: missing transport data for species Air
+Be sure to use a transport model that does not require the default data
+mu(N2) = 1.39931e-06*T^(3/2)/(T + 106.667)
+
+mu(Air) = 1.458e-06*T^(3/2)/(T + 110.3)
+
+
+mu(N2) = 0.1*exp(0.0268142*(logT)^2 + 0.317784*logT + -11.3156)
+
+mu(Air) = 0.1*exp(0.0268142*(logT)^2 + 0.317784*logT + -11.3156)
+
+
+Blottner:
+mu(N2) = {5.22246e-05,5.46792e-05,5.22246e-05,5.46792e-05}
+mu(Air) = {5.22246e-05,5.46792e-05,5.22246e-05,5.46792e-05}
+Sutherland:
+mu(N2) = {5.05988e-05,5.24758e-05,5.05988e-05,5.24758e-05}
+mu(Air) = {5.26022e-05,5.45608e-05,5.26022e-05,5.45608e-05}

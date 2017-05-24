@@ -1,0 +1,10 @@
+#!/usr/bin/env pack -D
+
+set packing_fraction = 0.5;
+
+shape pellet { cylinder { 0.2 0.9 } }
+
+boundary { box 1.0 1.0 1.0 periodic }
+
+create 1000 pellet size 1.0;
+

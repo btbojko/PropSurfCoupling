@@ -1,0 +1,16 @@
+'Propellant: Example for BALA'
+'Cube'
+3                       # idim
+-3	                # height
+
+1                       # iblend_max
+13500   	# ntot, total number of particles
+0.92                    # binder density
+
+singlesize               # cut name
+AP                      # cut type
+25000.0
+2.70                    # density
+0.75                    # weight fraction
+2.0                    # d_cutoff
+0d0                     # coating parameter; micron

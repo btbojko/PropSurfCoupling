@@ -1,0 +1,29 @@
+'Propellant: Miller Blend 08'
+'Cuboid'
+3                       # idim
+-1	                # height
+
+3                       # iblend_max
+10000          	        # ntot, total number of particles
+0.92                    # binder density
+
+miller_ap50.dat 	# cut name
+AP                      # cut type
+1.95                    # density
+0.3158   		# weight fraction
+10.0     	     	# d_cutoff
+0d0			# coating parameter; micron
+
+miller_ap20.dat		# cut name
+AP                      # cut type
+1.95                    # density
+0.2421   		# weight fraction
+10.0     	     	# d_cutoff
+0d0			# coating parameter; micron
+
+miller_ap02.dat 	# cut name
+AP                      # cut type
+1.95                    # density
+0.3158   		# weight fraction
+10.0     	     	# d_cutoff
+0d0			# coating parameter; micron

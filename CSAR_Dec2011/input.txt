@@ -1,0 +1,59 @@
+! Input file for dimensional constant mass flux code
+! ==================================================
+! General Code Parameters
+1               number of processes in the Y direction
+1               irestart; Zero I.C., one, from certain time
+rocfout		restartfile
+rocfout		outputfile
+300000		npts
+1.0d-5          timestep (sec)
+1.0d0           tstop
+1               dflag     Debugging flag
+10		writemod (print to screen every writemod cycles)
+5000		ndump (cycles between restart dumps)
+100 		frame; print output interval (cycles) (affects .vtk files)
+100		n_print_terms
+1		ipack; if -1 1D_steady; if 0 homogeneous; if 1 2d packing read file pack2.txt
+1000000		ncyc_oseen; if ncyc < ncyc_oseen then use Oseen assumption
+10 !3               nperiod; number of periods from t=0 or from restart
+0.0             period_begin; fractional number of periods at scratch start
+00000		ncyc_steady --- number of steady state iterations
+15000        ncyc_constant --- number of iterations before surface moves
+
+! Grid Parameters
+5.0d0		c1y  
+100		nnxx coarsest grid dimensions in x and z 
+100		nyy coarsest grid dimensions in y
+1		lvlx number of multigrid levels in x and z
+1		lvly number of multigrid levels in y
+1200.d0	xend=zend (input in microns; code converts to cm; not used if ipack=1)
+1200.0d0	yend (input in microns; code converts to cm)
+
+! Pressure and Pressure Disturbance Parameters
+20.0     press (atm)
+0.01d0          epi_p
+00000.0d0       omg_p
+0.0d0        phase_p
+
+! AP Diameter (micron) and % AP in binder
+0.691d0         fraction of x thickness that is AP 
+0.52	AP mass fraction in binder IF 1-D change this for different mixtures
+1           Number of particle sizes in binder (if 0 do not account for pressure effects)
+20.0            AP diameters (micron) homogenized in the binder 
+1.0             Mass fraction of AP diameter in the binder
+1           Homogenized binder (1 if premixed psuedo-binder, 0 if two ingredients)
+
+! Solid Phase Physical Parameters
+300.0d0		T_cold       (K)
+1.95d0	 	rho_ap       (g/cm)_OLD
+0.92d0   	rho_binder   (g/cm)_OLD
+
+! Time delays
+0.00d0		time_steady_pressure
+0.00d0		time_oseen
+
+! Gas Phase Properties
+0.3         Cp   0.28
+0.69        prandtl
+1.9859      Gas constant
+26.0        MW

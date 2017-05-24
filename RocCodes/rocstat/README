@@ -1,0 +1,95 @@
+
+README
+======
+
+  RocStat is a small program to calculate statistics of packs in Amira
+  file format. The usage and available options are below:
+
+	rocstat - calculate statistics and create slices of pack files
+
+	  Usage: rocstat [options] file.am
+
+	  Options:
+
+		-2	calculate two-point statistics
+
+		-3	calculate three-point statistics
+
+		-h	print help and exit
+
+		-i	print info about input file
+
+		-p	calculate packing fraction
+
+		-s	create a slice file
+
+		-v	view file on the screen
+
+		-H	create hotspot locations inside particles (fraction is in
+			the range of 0 to 100).
+
+		-B	select the number of particle size bins (default = unset)
+
+		-b	select the number of bins for the statistics calculations
+			(default = 100)
+
+		-d	maximum distance in microns for statistics calculations
+			(default = 1/2 of the average of the pack dimensions)
+
+		-n	number of random points per bin
+			(default = 1000000 for 2-point and 200000 for 3-point statistics).
+
+	  Examples:
+
+	    Second order statistics:
+
+	      $ rocstat -2 -b 50 -d 200 -n 30000 -o DCPD.sij DCPD.am
+
+	    Third order statistics:
+
+	      $ rocstat -3 -b 100 -d 150 -o DCPD.sijk DCPD.am
+
+	    Packing fraction:
+
+	      $ rocstat -p DCPD.am
+
+	    Create an xy slice file for z=50
+
+	      $ rocstat -s xy:50 DCPD.am > slice.dat
+
+	    The slice types that the program recognizes are xy, xz and yz,
+	    always followed by a colon and the number of the slice in the
+	    missing variable, e.g., yz:10 for a yz slice and x=10.
+
+
+
+
+	rocplot - script to make simple plots of data generated with rocstat
+
+	  This program requires Python and Matplotlib to work. Please visit
+	  http://www.python.org and http://matplotlib.sourceforge.net for more
+	  information.
+
+	  The program depends on the extensions of the files. Please make sure
+	  that your statistics files have .sij and .sijk extentions for 2 and 3
+	  point statistics files and .dat or .slice for slice files.
+
+	  The script can be simply run as:
+
+	    $ rocplot file.sij
+
+	    $ rocplot file.sij S11
+
+	    $ rocplot file.sijk S101
+
+	  for statistics plots, and as:
+
+	    $ rocplot file.slice
+	    $ rocplot file.dat
+
+	  for slice plots.
+
+	  If you have any further questions, please do not hesitate to contact the
+	  authors.
+
+

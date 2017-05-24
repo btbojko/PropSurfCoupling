@@ -1,0 +1,7 @@
+metaphysicl_unit/arrhenius_rate_metaphysicl_test.o: \
+ metaphysicl_unit/arrhenius_rate_metaphysicl_test.C \
+ /usr/include/stdc-predef.h ../antioch_config.h
+
+/usr/include/stdc-predef.h:
+
+../antioch_config.h:

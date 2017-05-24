@@ -1,0 +1,20 @@
+'Propellant: Example for SDT project'
+'Cuboid'           	# container
+3                       # idim
+-3	                # height
+
+1                       # iblend_max
+15000          	        # ntot, total number of particles
+1.85                     # void
+
+lognormal       	# cut name
+hmx                      # cut type
+1.85                    # density
+0.65    		# weight fraction
+40.0     	     	# d_cutoff
+0d0			# coating parameter; micron
+0.8                     # bcoeff
+181.0                    # diam_Peak
+46.0                     # diam_Min
+338.0   	        # diam_Max
+

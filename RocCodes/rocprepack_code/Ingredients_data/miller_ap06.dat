@@ -1,0 +1,29 @@
+60          0.0000001	 
+35          0.9999999	 
+20.8        4	 
+13.1        5	 
+11.2        5	 
+9.70        5	 
+8.90        5	 
+8.10        5	 
+7.60        5	 
+6.90        5	 
+6.20        5	 
+5.60        5	 
+5.20        5	 
+4.80        5	 
+4.50        5	 
+4.10        5	 
+3.70        5	 
+3.40        5	 
+3.10        5	 
+2.70        5	 
+2.30        5	 
+1.90        5	 
+3.40        0	 
+
+% MIller 6 micron AP
+% Channel  % in channel % ap type
+% (microns)
+%:note - artificially added diameter 60 with minute number fraction 
+%to avoid some numerical problem due to Dcutoff in calculating blends

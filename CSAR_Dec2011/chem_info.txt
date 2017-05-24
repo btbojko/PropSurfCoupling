@@ -1,0 +1,31 @@
+ Species	
+ HTPB								!Binder
+ AP									!AP
+ MONO								!AP monopropellant product
+ BIND								!Premixed binder product
+ PRI								!Primary flame products
+ FDF								!Final products
+
+ REACTIONS			
+ AP = MONO 							!AP monopropellant reaction
+ 2.7d+4     1.6     8000.0			!2.7d+4              
+ 
+ HTPB  = BIND						! 2-step AP mechanism
+ 5.80d+3     1.7     7300.0		    	
+ 
+ 7.974 AP + HTPB = 8.974 PRI		!Primary Flame (Beta = 7.974)  
+ 5.0d+03     1.7    5700.0		    !2.0d+03    2.2     5700.0  
+ 
+ 2.9 MONO + BIND = 3.9 FDF			!Final Diffusion Flame			Reaction stoich parameters determined interally
+ 4.0d+02     1.7     7300.0		    !5.0d+2     1.7     7500.0
+ 
+ PROPERTIES
+ -100.0 			qheat_AP	
+ -300.0 			qheat_BINDER  
+ 10500.0 		    theta_AP       14000 
+ 5800.0 			theta_BINDER      5000
+ 830.0 				T_melt      815.0
+ 0.330				Lambda_AP (W/m/K)    0.330     
+ 0.213				Lambda_Binder (W/m/K)  0.213
+ 2.13037d-7			a for Gas conductivity a*T + b
+ 5.32743d-6			b for Gas conductivity a*T + b

@@ -1,0 +1,13 @@
+
+TODO
+====
+
+- Allow particle creation by fraction, as well as by numbers
+- Convert all shapes from previous code into new format
+- Check for intersections between all particles before exit
+- Fix collision margin and add it as an input file option
+- Implement scaled shapes class to allow for elongated particles
+- Automatically calculate view frustum to fit entire pack
+- Implement performance test cases to avoid performance regressions
+- Use space bar to shake pack at the end, during final visualization
+

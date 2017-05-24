@@ -1,0 +1,40 @@
+'Propellant: Eglin Propellant 03'
+'Cuboid'
+3                       # idim
+-1	                # height
+
+3                       # iblend_max
+20000          	        # ntot, total number of particles
+0.92                    # binder density
+
+lognormal               # cut name
+hmx                      # cut type
+1.90                    # density
+0.5                     # weight fraction
+5.0                     # d_cutoff
+0d0                     # coating parameter; micron
+0.8                     # bcoeff
+400.0                    # diam_Peak
+250.0                    # diam_Min
+530.0                   # diam_Max
+
+lognormal               # cut name
+hmx                      # cut type
+1.90                    # density
+0.01                     # weight fraction
+5.0                     # d_cutoff
+0d0                     # coating parameter; micron
+0.8                     # bcoeff
+80.0                    # diam_Peak
+30.0                    # diam_Min
+160.0                   # diam_Max
+
+
+singlesize              # cut name
+hmx                      # cut type
+20.0                     # diameter for single size
+1.90                    # density
+0.02                    # weight fraction
+5.0                    # d_cutoff
+0d0                     # coating parameter; micron
+

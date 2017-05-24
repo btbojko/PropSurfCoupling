@@ -1,0 +1,30 @@
+
+ROCPACK
+=======
+
+Rocpack is a particle packing code developed at University of Illinois to
+simulate the microstructure of solid rocket propellants. Rocpack packs particles
+based on two different packing algorithms. For spheres, Rocpack uses the
+consolidated Lubachevsky–Stillinger packing algorithm. For polyhedra, Rocpack
+uses a new algorithm developed specifically for the task. This new algorithm is
+a hybrid between the Lubachevsky–Stillinger and Adaptive Shrinking Cell packing
+algorithms. In both algorithms, infinitesimal particles are distributed randomly
+within a given container and are then allowed to grow until the desired packing
+fraction is reached or until the packing is jammed. When two particles are about
+to collide, measures are taken to prevent any intersections. Rocpack can produce
+packs of polydisperse spheres and convex polyhedra. Polyhedra are defined in
+external files. Rocpack comes with many files for common shapes, including all
+the platonic and archimedean solids, as well as a few extra shapes for pyramids,
+prisms, etc. Rocpack can create particles with both fixed size as well as with
+continuous size distributions. In the current version of Rocpack, it is possible
+to pack spheres inside a box (with solid or periodic walls), a cylinder, an
+annulus, a sphere, or a torus. Polyhedra can be packed only inside a periodic
+box for the moment, but additional boundary types will be implemented in the
+future. For more details about the packing algorithm used in Rocpack, please
+take a look at the file rocpack.pdf in the documentation directory that has been
+distributed with the source code. For more details on how to run Rocpack, please
+check the program manual also distributed in the documentation directory.
+
+For installation instructions, please see the INSTALL file, as the documentation
+is lagging behind after the conversion of the build system to use GNU autotools.
+

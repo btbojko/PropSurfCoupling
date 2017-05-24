@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# script to convert OBJ files to rocpack's input format
+
+# $1 - shape_name.obj
+# $2 - optional shape name
+
+shape=${2:-${1/.obj/}}
+
+(
+echo "shape $shape {"
+echo "	vertices {"
+grep '^v ' $1 | sed -e '/v/{s/^v /\t\t</; s/ /, /g; s/$/>,/;};'
+echo " }"
+echo "	faces {"
+grep '^f ' $1 | 
+sed -e '/f/{s/f //; s/\/\/[0-9]\+//g;}' |
+awk '{ printf "\t\t["; for (f=1; f<=NF; f++) { $f--; printf "%d, ", $f; } printf "],\n"; }' |
+sed -e 's/, ],/],/'
+echo "	}"
+echo "}"
+) > ${shape}.shape
+

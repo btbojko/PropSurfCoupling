@@ -1,0 +1,3 @@
+double, tolerance = 1.77636e-14 and maximum difference = 9.64371e-15
+long double, tolerance = 8.67362e-18 and maximum difference = 5.10117e-18
+float, tolerance = 9.53674e-06 and maximum difference = 4.30225e-06

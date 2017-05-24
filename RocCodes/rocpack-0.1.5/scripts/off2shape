@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# convert OFF file to shape file
+
+OFF=$1 NAME=${1/.off/} SHP=${1/.off/.shape}
+
+read V F E <<< $(sed -n 2p $OFF)
+
+if [ $(($V-$E+$F)) != 2 ]; then
+	echo 'error: V - E + F != 2'; exit 1
+fi
+
+(
+echo "shape $NAME {"
+	echo -e "\tvertices {"
+		sed -n 3,$(($V+2))p $OFF |
+		awk '{printf "\t\t<% .16f,% .16f,% .16f>\n", $1, $2, $3}'
+	echo -e "\t}"
+
+	echo
+	echo -e "\tfaces {"
+		tail -n $F $OFF |
+		awk '{ printf "\t\t["; for (i=NF; i > 2; i--) printf "%2d,", $i; printf "%2d],\n", $2; }'
+	echo -e "\t}"
+echo "}"
+) > $SHP
+

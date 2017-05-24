@@ -1,0 +1,41 @@
+'Propellant: ATLAS V Propellant'
+'Cuboid'
+3                       # idim
+2000	                # height
+
+3                       # iblend_max
+50000         	        # ntot, total number of particles
+0.92                    # binder density
+
+lognormal       	# cut name
+AP                      # cut type
+1.95                    # density
+0.35    		# weight fraction
+20.0     	     	# d_cutoff
+0d0			# coating parameter; micron
+0.9                     # bcoeff
+300.                    # diam_Peak
+190.0                     # diam_Min
+380.     	        # diam_Max
+
+lognormal       	# cut name
+AP                      # cut type
+1.95                    # density
+0.35    		# weight fraction
+20.0     	     	# d_cutoff
+0d0			# coating parameter; micron
+0.9                     # bcoeff
+20.                    # diam_Peak
+10.0                     # diam_Min
+90.     	        # diam_Max
+
+lognormal       	# cut name
+Al                      # cut type
+2.70                    # density
+0.20    		# weight fraction
+10.0     	     	# d_cutoff
+0d0			# coating parameter; micron
+0.8                     # bcoeff
+20.                    # diam_Peak
+5.0                     # diam_Min
+90.     	        # diam_Max

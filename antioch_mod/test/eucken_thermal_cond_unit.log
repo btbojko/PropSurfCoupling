@@ -1,0 +1,366 @@
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding N informations:
+	molecular weight: 0.014008 kg/mol
+	formation enthalpy @0 K: 3.36216e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding NO informations:
+	molecular weight: 0.030008 kg/mol
+	formation enthalpy @0 K: 2.99612e+06 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding O informations:
+	molecular weight: 0.016 kg/mol
+	formation enthalpy @0 K: 1.542e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding O2 informations:
+	molecular weight: 0.032 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+Adding vibrational data of species NO
+	vibrational temperature: 2817 K
+	degeneracy: 1
+Adding vibrational data of species O2
+	vibrational temperature: 2239 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+N
+O
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species N
+	electronic temperature: 27664.7 K
+	degeneracy: 10
+Adding electronic data of species N
+	electronic temperature: 41493.1 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+Adding electronic data of species NO
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 54673.5 K
+	degeneracy: 8
+Adding electronic data of species NO
+	electronic temperature: 63171.4 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 65994.5 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 69061.2 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 70500 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 74910.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 76288.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 86761.9 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 87144.3 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 88860.8 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89817.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89884.5 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90427 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90642.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 91117.6 K
+	degeneracy: 4
+Adding electronic data of species O
+	electronic temperature: 0 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 227.708 K
+	degeneracy: 3
+Adding electronic data of species O
+	electronic temperature: 326.569 K
+	degeneracy: 1
+Adding electronic data of species O
+	electronic temperature: 22830.3 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 48619.9 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 0 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 11391.6 K
+	degeneracy: 2
+Adding electronic data of species O2
+	electronic temperature: 18984.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 47559.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 49912.4 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 50922.7 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 71898.6 K
+	degeneracy: 3
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Reading species characteristics in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_chemical_mixture.dat
+Adding N informations:
+	molecular weight: 0.014008 kg/mol
+	formation enthalpy @0 K: 3.36216e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding N2 informations:
+	molecular weight: 0.028016 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding NO informations:
+	molecular weight: 0.030008 kg/mol
+	formation enthalpy @0 K: 2.99612e+06 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Adding O informations:
+	molecular weight: 0.016 kg/mol
+	formation enthalpy @0 K: 1.542e+07 J/mol
+	trans-rot degrees of freedom: 1.5
+	charge: 0
+Adding O2 informations:
+	molecular weight: 0.032 kg/mol
+	formation enthalpy @0 K: 0 J/mol
+	trans-rot degrees of freedom: 2.5
+	charge: 0
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Reading vibrational data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat
+Adding vibrational data of species N2
+	vibrational temperature: 3395 K
+	degeneracy: 1
+Adding vibrational data of species NO
+	vibrational temperature: 2817 K
+	degeneracy: 1
+Adding vibrational data of species O2
+	vibrational temperature: 2239 K
+	degeneracy: 1
+WARNING:
+Vibrational levels are missing.  Please update the information.  Currently using file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_vibrational_data.dat.
+Missing molecule(s) is(are):
+N
+O
+Having opened file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Reading electronic data in file /home/bbojko/git/antioch/share/antioch_default_files/antioch_default_electronic_data.dat
+Adding electronic data of species N
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species N
+	electronic temperature: 27664.7 K
+	degeneracy: 10
+Adding electronic data of species N
+	electronic temperature: 41493.1 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 0 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 72231.6 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 85778.6 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 86050.3 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 95351.2 K
+	degeneracy: 3
+Adding electronic data of species N2
+	electronic temperature: 98056.4 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 99682.7 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 104898 K
+	degeneracy: 2
+Adding electronic data of species N2
+	electronic temperature: 111649 K
+	degeneracy: 5
+Adding electronic data of species N2
+	electronic temperature: 122584 K
+	degeneracy: 1
+Adding electronic data of species N2
+	electronic temperature: 124886 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 128248 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 133806 K
+	degeneracy: 10
+Adding electronic data of species N2
+	electronic temperature: 140430 K
+	degeneracy: 6
+Adding electronic data of species N2
+	electronic temperature: 150496 K
+	degeneracy: 6
+Adding electronic data of species NO
+	electronic temperature: 0 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 54673.5 K
+	degeneracy: 8
+Adding electronic data of species NO
+	electronic temperature: 63171.4 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 65994.5 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 69061.2 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 70500 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 74910.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 76288.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 86761.9 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 87144.3 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 88860.8 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89817.6 K
+	degeneracy: 4
+Adding electronic data of species NO
+	electronic temperature: 89884.5 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90427 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 90642.8 K
+	degeneracy: 2
+Adding electronic data of species NO
+	electronic temperature: 91117.6 K
+	degeneracy: 4
+Adding electronic data of species O
+	electronic temperature: 0 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 227.708 K
+	degeneracy: 3
+Adding electronic data of species O
+	electronic temperature: 326.569 K
+	degeneracy: 1
+Adding electronic data of species O
+	electronic temperature: 22830.3 K
+	degeneracy: 5
+Adding electronic data of species O
+	electronic temperature: 48619.9 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 0 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 11391.6 K
+	degeneracy: 2
+Adding electronic data of species O2
+	electronic temperature: 18984.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 47559.7 K
+	degeneracy: 1
+Adding electronic data of species O2
+	electronic temperature: 49912.4 K
+	degeneracy: 6
+Adding electronic data of species O2
+	electronic temperature: 50922.7 K
+	degeneracy: 3
+Adding electronic data of species O2
+	electronic temperature: 71898.6 K
+	degeneracy: 3

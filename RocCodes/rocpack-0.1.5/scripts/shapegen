@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [[ $# < 1 ]]; then
+	echo "Usage: $(basename $0) name N"
+	exit
+fi
+
+NAME=${1:-shapegen}; N=${2:-100}; SEED=${3:-$RANDOM}
+
+which rbox >/dev/null 2>&1 ||
+echo "This script needs Qhull to work (http://www.qhull.org). Please install it on you system."
+
+if [[ $N -lt 4 ]]; then
+	echo "Error: N must be more than 4."
+	exit 1
+fi
+
+# create OFF file of random shape
+rbox $N t$SEED s W1.0 | qconvex p | qconvex o TO ${NAME}.off
+
+# convert OFF file to shape file
+off2shape ${NAME}.off; rm ${NAME}.off
+

@@ -1,0 +1,6 @@
+ 1d-2		! TOLERANCEGAUSS 
+ 20		!  iterLINEARsys 
+ 1		!  iterativemethod 
+ 2		!  GAUSS_GMRES 
+ .false.	!  implicitBC 
+ 1		!  GMRES_restarts 

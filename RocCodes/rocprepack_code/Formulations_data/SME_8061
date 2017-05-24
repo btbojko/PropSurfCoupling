@@ -1,0 +1,29 @@
+'Propellant: SME 8061'
+'Cube'
+3                       # idim
+-1	                # height
+
+3                       # iblend_max
+800000          	        # ntot, total number of particles
+0.92                    # binder density
+
+french_ap_241.dat	# cut name
+AP                      # cut type
+1.95                    # density
+0.58    		# weight fraction
+20.0     	     	# d_cutoff
+0d0			# coating parameter; micron
+
+french_ap_013.dat	# cut name
+AP                      # cut type
+1.95                    # density
+0.10    		# weight fraction
+20.0     	     	# d_cutoff
+0d0			# coating parameter; micron
+
+french_al_045.dat	# cut name
+Al                      # cut type
+2.70                    # density
+0.18    		# weight fraction
+7.2     	     	# d_cutoff
+0d0			# coating parameter; micron

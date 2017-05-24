@@ -1,0 +1,29 @@
+30          0.0000001	 
+15.8        0.9999999	 
+5.0         4	 
+2.87        5	 
+2.62        5	 
+2.44        5	 
+2.33        5	 
+2.28        5	 
+2.18        5	 
+2.08        5	 
+2.03        5	 
+1.94        5	 
+1.90        5	 
+1.85        5	 
+1.77        5	 
+1.69        5	 
+1.65        5	 
+1.58        5	 
+1.51        5	 
+1.40        5	 
+1.31        5	 
+1.17        5	 
+0.93        0	 
+
+% MIller 2 micron AP
+% Channel  % in channel % ap type
+% (microns)
+%:note - artificially added diameter 30 with minute number fraction 
+%to avoid some numerical problem due to Dcutoff in calculating blends

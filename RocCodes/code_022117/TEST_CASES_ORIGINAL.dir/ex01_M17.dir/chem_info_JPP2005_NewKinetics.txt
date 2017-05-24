@@ -1,0 +1,50 @@
+  3            ........   nsteps, number of reaction steps excluding radiation
+  0.88d0       ........   rho_m_st, gives beta = 7.33
+  1400.0d0     ........   Tflame1
+  3000.0d0     ........   Tflame2
+  300.0d0      ........   Tcold
+
+  41.10d0      ........   da1     reaction rate R1
+  3000.0       ........   theta1
+  2.06d0       ........   n1
+  0d0          ........   z1
+  410.0d0      ........   qg1
+
+  23500.0d0    ........   da2     reaction rate R2
+  8500.0       ........   theta2
+  2.06d0       ........   n2
+  0d0          ........   z2
+  7402.6666667 ........   qg2
+
+  95.0d0       ........   da3     reaction rate R3
+  8500.0d0     ........   theta3
+  1.60         ........   n3
+  0d0          ........   z3
+  4396.0d0     ........   qg3
+
+  -1.0d0  -7.3333d0 0.0d0   ....... Reaction step #1
+  +1.0d0  0.0d0  -7.3333d0  ....... Reaction step #2
+  0.0d0  -1.d0 -1.0d0       ....... Reaction step #3
+
+  1.000000E+00  1.000000E+00  1.000000E+00  1.000000E+00   ........   lewis(1:4)
+
+  0.000000E+00  1.0  0.000000E+00 0E+00  0d0 0d0  ........ exponents reaction #1
+  0.000000E+00  3.3d0  0.000000E+00  0.4d0    0d0 0d0 ........ exponents reaction #2
+  0.000000E+00  0.000000E+00  1d00  1.d0   0d0 0d0  ........ exponents reaction #3
+
+  0.000000E+00  3.000000E-01  0.000000E+00  1.000000E-14   ........   a_cpg,b_cpg,e_cpg,T_cpg
+  2.581000E-07  3.178800E-05  1.000000E+00   ........   a_lamg,b_lamg,e_lamg
+  1.950000E+00   ........   rho_ap
+  3.000000E-01   ........   cp_ap
+  9.675000E-04   ........   lambda_ap
+  -80.0d0        ........   qheat_OX
+  9.200000E-01   ........   rho_binder
+  3.000000E-01   ........   cp_binder
+  6.596600E-04   ........   lambda_binder
+  -66.d0         ........   qheat_binder
+  1.458555368717290e+05   ........   da_ap
+  11000.0        ........   theta_ap
+  0d0            ........   nus_ap
+  1.035952809645442e+03   ........   da_Binder
+  7500.0         ........   theta_Binder
+  0.000000E+00   ........   nus_binder

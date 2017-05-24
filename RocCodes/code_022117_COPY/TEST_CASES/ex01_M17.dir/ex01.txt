@@ -1,0 +1,10 @@
+inp2.txt
+chem_info_JPP2005_NewKinetics.txt
+pack3d_miller17.txt
+
+pack3d_miller24.txt
+
+
+Be sure to set maxsize = 5 in global_data.f90 and recompile
+before running
+

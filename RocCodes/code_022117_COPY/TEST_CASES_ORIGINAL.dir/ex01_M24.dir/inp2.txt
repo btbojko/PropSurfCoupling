@@ -1,0 +1,65 @@
+! Input file for dimensional constant mass flux code
+! ==================================================
+! General Code Parameters
+0               irestart; Zero I.C., one, from certain time
+rcancel		in
+rocfire		OUT
+8000		npts
+1.0d-5         timestep (sec)
+0.5d0           tstop
+1,1		nyloc,inyloc
+1		writemod
+2,1 		ndump (cycles between restart dumps), nsfxrstrt
+100		frame; print output interval (cycles)
+-10,100,3,5	ncyc_debug,Tncyc,Tjumps,Tfrac
+1		ipack; if -1 1D_steady; if 0 homogeneous; if 1 2d packing read file pack3.txt
+400000		ncyc_oseen; if ncyc < ncyc_oseen then use Oseen assumption
+3               nperiod; number of periods from t=0 or from restart
+0.0             period_begin; fractional number of periods at scratch start
+0		ncyc_steady --- number of steady state iterations
+3               ireaction       reaction steps in the model
+5   		ncells
+dat,.ini	sfx
+
+! Grid Parameters
+5.5d0		c1y  
+20      	nnxx coarsest grid dimensions in x and z 
+40		nyy coarsest grid dimensions in y
+3		lvlx number of multigrid levels in x and z
+1		lvly number of multigrid levels in y
+400.d0		xend=zend (input in microns; code converts to cm; not used if ipack=1)
+1000.0d0	yend (input in microns; code converts to cm)(Increased from the value in Mdel 1 from 500)
+
+! Pressure and Pressure Disturbance Parameters
+68.000d0        press (atm)
+0.01d0          epi_p
+00000.0d0       omg_p
+0.0d0        phase_p
+
+! Equivalence ratio and Homginization parameter
+1.0		0.72d0           equivalence_ratio
+0.0d0		alpha
+1               iwflag ---set it to: 1 if is by wieght 0 if it is by volume
+
+! Solid Phase Physical Parameters
+300.0d0		T_cold       (K)
+
+! Time delays
+0.00d0		time_steady_pressure
+0.00d0		time_oseen
+
+! Shear
+1.0d2    !shearFreq [Hz]
+0.0d3    !shearRateAmp
+
+!Radiation parameters
+0.15d0		!KrierFACTOR
+PACK		!scase
+.FALSE.		!PRESSVARY
+.FALSE.		!HEATVARY
+.TRUE.		!NORADIATION
+.TRUE.		!NOQ4
+0		!ntrck
+1 3 1 49	!pos rel
+1 3 1 50	!pos rel
+1 3 1 51	!pos rel

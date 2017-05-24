@@ -1,0 +1,29 @@
+2011-05-27	Guilherme Amadio <amadio1@illinois.edu>
+	* view.c: Merged old xview capabilities into rocstat.
+
+2011-05-25	Guilherme Amadio <amadio1@illinois.edu>
+	* random.c, stat.c: Use reentrant versions of random number generators.
+
+2011-05-24	Guilherme Amadio <amadio1@illinois.edu>
+	* hotspot.c: New file that implements generation of hotspot locations
+	             inside particles.
+
+2011-05-23	Guilherme Amadio <amadio1@illinois.edu>
+	* rocstat.c, help.c: Implemented -i option to print input file information.
+
+2011-04-11	Guilherme Amadio <amadio1@illinois.edu>
+	* stat.c: Fixed bug with uninitialized memory.
+	* amira.c: Fixed bug with particle data filename.
+
+2011-04-06	Guilherme Amadio <amadio1@illinois.edu>
+	* amira.c: Fixed issue with reading of resolution.
+
+2011-03-23	Guilherme Amadio <amadio1@illinois.edu>
+	* *.c, *.h, Makefile: Rewrite with more structure and new statistics.
+
+2011-03-18	Guilherme Amadio <amadio1@illinois.edu>
+	* Makefile: Added rocstat_bins rule.
+	* rocstat_bins.c: New file.
+
+2010-12-20	Guilherme Amadio <amadio1@illinois.edu>
+	* All files: Initial Revision.

@@ -1,0 +1,6 @@
+utilities/src/gsl_spliner_impl.lo: utilities/src/gsl_spliner_impl.C \
+ /usr/include/stdc-predef.h ../antioch_config.h
+
+/usr/include/stdc-predef.h:
+
+../antioch_config.h:

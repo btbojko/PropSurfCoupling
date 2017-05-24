@@ -1,0 +1,7 @@
+standard_unit/nasa9_curve_fit_test.o: \
+ standard_unit/nasa9_curve_fit_test.C /usr/include/stdc-predef.h \
+ ../antioch_config.h
+
+/usr/include/stdc-predef.h:
+
+../antioch_config.h:

@@ -1,0 +1,103 @@
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+
+# script to plot rocpack/rocstat statistics functions
+
+from pylab import *
+from sys import argv, exit
+
+Sij  = { "S00" : 1, "S01" : 2, "S11" : 3, "Sij" : 4 }
+
+Sij_labels  = {
+	"S00" : '$S_{00}$',
+	"S01" : '$S_{01}$',
+	"S11" : '$S_{11}$',
+	"Sij" : '$S_{ij}$'
+}
+
+Sijk = {
+	"S000": 2, "S001": 3, "S010": 4, "S011": 5,
+	"S100": 6, "S101": 7, "S110": 8, "S111": 9
+}
+
+Sijk_labels = { 
+	"S000": r'$S_{000}$', "S001": r'$S_{001}$',
+	"S010": r'$S_{010}$', "S011": r'$S_{011}$',
+	"S100": r'$S_{100}$', "S101": r'$S_{101}$',
+	"S110": r'$S_{110}$', "S111": r'$S_{111}$'
+}
+
+if len(argv) == 1:
+	print "Usage: rocplot file.sij Sij or rocplot file.sijk Sijk or rocplot file.slice"
+	exit(0)
+
+data = loadtxt(argv[1])
+
+styles = [ "-", "--", "-.", "." ]
+colors = [ "r", "g", "b", "y", "m", "c", "k" ]
+
+if len(argv) == 2:
+	if argv[1].endswith('.sij'):
+		func = "Sij"
+	else:
+		if argv[1].endswith('.slice') or argv[1].endswith('.dat'):
+			imshow(data, cmap='gray'); clim([0,1]); show()
+			sys.exit(0)
+else:
+	if len(argv) > 2:
+		func = argv[2]
+	else:
+		func = "(null)"
+
+if len(func) == 3: # second order statistics
+	if func not in Sij.keys():
+		print "Error: Unknown function:", func, "\n"
+		exit(1)
+
+	if argv[1].endswith('.sijk'):
+		print "Error: Requested Sij with third order statistics file\n"
+		exit(1)
+
+	if func != "Sij":
+		x = data[:,0]; y = data[:,Sij[func]]
+		xlabel('Distance [$\mu$m]'); ylabel(Sij_labels[func]);
+		plot(x,y,'b-', lw=2); show()
+	else:
+		if len(data[0]) == 4:
+			x = data[:,0]
+			plot(x,data[:,1],'r-',lw=2)
+			plot(x,data[:,2],'g-',lw=2)
+			plot(x,data[:,3],'b-',lw=2)
+			xlabel('Distance [$\mu$m]'); ylabel('S$_{ij}$')
+			legend(['$S_{00}$','$S_{01}$','$S_{11}$'], ncol=3)
+			grid(); show()
+		else:
+			x = data[:,0]
+			xlabel("Distance [$\mu$m]"); ylabel("$S_{ij}$");
+			n = int(sqrt(len(data[0]-1)))
+			for i in range(1, len(data[0])):
+				y = data[:,i];
+				line_type = colors[((i-1)%n)%len(colors)]
+				line_type = line_type + styles[((i-1)/n)%len(styles)]
+				plot(x,y, line_type, lw=2)
+			labels = []
+			for i in range(n):
+				for j in range(n):
+					labels.append("$S_{"+str(i)+str(j)+"}$")
+			grid(); legend(labels, ncol=n); show()
+else:
+		# third order statistics
+		if func not in Sijk.keys():
+			print "Error: Unknown function:", func, "\n"
+			exit(1)
+
+		figure(1,(8,6.2))
+		title(Sijk_labels[func], fontsize='large')
+		bins = sqrt(len(data[:,0]))
+		z = data[:,Sijk[func]].reshape(bins,bins)
+		extent = (data[0][0],data[-1][0],data[0][1],data[-1][1])
+		imshow(z, origin='lower', extent=extent)
+		xlabel("$r_1$ [$\mu$m]"); ylabel("$r_2$ [$\mu$m]"); colorbar()
+		if(len(argv) > 3): savefig(argv[3])
+		show()
+

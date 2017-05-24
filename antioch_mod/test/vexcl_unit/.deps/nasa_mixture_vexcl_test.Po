@@ -1,0 +1,7 @@
+vexcl_unit/nasa_mixture_vexcl_test.o: \
+ vexcl_unit/nasa_mixture_vexcl_test.C /usr/include/stdc-predef.h \
+ ../antioch_config.h
+
+/usr/include/stdc-predef.h:
+
+../antioch_config.h:

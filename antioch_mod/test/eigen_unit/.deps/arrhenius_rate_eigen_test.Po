@@ -1,0 +1,7 @@
+eigen_unit/arrhenius_rate_eigen_test.o: \
+ eigen_unit/arrhenius_rate_eigen_test.C /usr/include/stdc-predef.h \
+ ../antioch_config.h
+
+/usr/include/stdc-predef.h:
+
+../antioch_config.h:

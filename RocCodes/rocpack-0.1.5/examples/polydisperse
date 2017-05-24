@@ -1,0 +1,15 @@
+#!/usr/bin/env pack-ls -D
+
+set packing_fraction = 0.5;
+
+boundary { box 1.0 1.0 1.0 periodic }
+
+# sizes vary from 1.0 to 2.0 with equal probability
+
+create 1000 sphere size uniform 1.0 2.0;
+
+# sizes have gaussian distribution with
+# mean = 1.0 and standard deviation = 0.1
+
+create 1000 sphere size gaussian 1.0 0.1;
+

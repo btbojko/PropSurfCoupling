@@ -1,0 +1,6 @@
+stat_mech_thermo_unit_eigen.o: stat_mech_thermo_unit_eigen.C \
+ /usr/include/stdc-predef.h ../antioch_config.h
+
+/usr/include/stdc-predef.h:
+
+../antioch_config.h:

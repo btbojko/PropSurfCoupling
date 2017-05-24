@@ -1,0 +1,7 @@
+vexcl_unit/arrhenius_rate_vexcl_test.o: \
+ vexcl_unit/arrhenius_rate_vexcl_test.C /usr/include/stdc-predef.h \
+ ../antioch_config.h
+
+/usr/include/stdc-predef.h:
+
+../antioch_config.h:
